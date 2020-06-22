@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: ADK API
+Bundle-SymbolicName: de.netallied.adk
+Bundle-Version: 1.0.0.qualifier
+Export-Package: org.automationml,
+ org.automationml.aml,
+ org.automationml.internal;x-friends:="de.netallied.adk.test",
+ org.automationml.internal.aml;x-friends:="de.netallied.adk.test",
+ org.automationml.internal.aml.persistence;x-friends:="de.netallied.adk.test"
+Bundle-Vendor: NetAllied Systems GmbH
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Automatic-Module-Name: de.netallied.adk

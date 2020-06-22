@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: ADK API Test
+Bundle-SymbolicName: de.netallied.adk.test
+Bundle-Version: 1.0.0.qualifier
+Export-Package: org.automationml.aml
+Bundle-Vendor: NetAllied Systems GmbH
+Require-Bundle: de.netallied.adk;bundle-version="1.0.0",
+ org.junit;bundle-version="4.10.0"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7

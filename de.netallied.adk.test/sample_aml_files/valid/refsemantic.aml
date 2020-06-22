@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CAEXFile FileName="a.aml" SchemaVersion="2.15" xsi:noNamespaceSchemaLocation="CAEX_ClassModel_V2.15.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<AdditionalInformation AutomationMLVersion="2.0">
+	</AdditionalInformation>
+	<AdditionalInformation>
+		<WriterHeader>
+			<WriterName>ADK Editor</WriterName>
+			<WriterID>ADK</WriterID>
+			<WriterVendor>NetAllied Systems GmbH</WriterVendor>
+			<WriterVendorURL>www.netallied.de</WriterVendorURL>
+			<WriterVersion>0.9.5</WriterVersion>
+			<WriterRelease>R1</WriterRelease>
+			<LastWritingDateTime>2014-10-24T16:04:48+0200</LastWritingDateTime>
+			<WriterProjectTitle>
+			</WriterProjectTitle>
+			<WriterProjectID>
+			</WriterProjectID>
+		</WriterHeader>
+	</AdditionalInformation>
+	<InstanceHierarchy Name="a">
+		<InternalElement ID="{532055a1-bf0a-4072-8f93-e17227d5f785}" Name="b">
+			<Attribute Name="Neues Attribute (2)" Unit="" AttributeDataType="">
+				<RefSemantic CorrespondingAttributePath="dfghdfgh" />
+			</Attribute>
+		</InternalElement>
+	</InstanceHierarchy>
+</CAEXFile>

@@ -1,0 +1,2603 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CAEXFile FileName="Struktur-Beispiel_001.aml" SchemaVersion="2.15" xsi:noNamespaceSchemaLocation="CAEX_ClassModel_V2.15.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<AdditionalInformation AutomationMLVersion="2.0"/>
+	<AdditionalInformation>
+		<WriterHeader>
+			<WriterName>unspecified</WriterName>
+			<WriterID>AutomationML Editor</WriterID>
+			<WriterVendor>unspecified</WriterVendor>
+			<WriterVendorURL>www.AutomationML.org</WriterVendorURL>
+			<WriterVersion>3.0.0</WriterVersion>
+			<WriterRelease>unspecified</WriterRelease>
+			<LastWritingDateTime>2016-04-29T16:35:04+0200</LastWritingDateTime>
+			<WriterProjectTitle>unspecified</WriterProjectTitle>
+			<WriterProjectID>unspecified</WriterProjectID>
+		</WriterHeader>
+	</AdditionalInformation>
+	<InstanceHierarchy Name="Beispiel-Struktur">
+		<InternalElement ID="{cf28f6b9-4b84-4d05-99a6-b0c4be3dbbb2}" Name="Daimler">
+			<Attribute Name="Frame">
+				<Attribute Name="x">
+					<Value>0.0</Value>
+				</Attribute>
+				<Attribute Name="y">
+					<Value>0.0</Value>
+				</Attribute>
+				<Attribute Name="z">
+					<Value>0.0</Value>
+				</Attribute>
+				<Attribute Name="rx">
+					<Value>0.0</Value>
+				</Attribute>
+				<Attribute Name="ry">
+					<Value>0.0</Value>
+				</Attribute>
+				<Attribute Name="rz">
+					<Value>0.0</Value>
+				</Attribute>
+			</Attribute>
+			<InternalElement ID="{939cb386-7973-49c4-94c9-b864de8908fb}" Name="Werk_050">
+				<Attribute Name="Frame">
+					<Attribute Name="x">
+						<Value>0.0</Value>
+					</Attribute>
+					<Attribute Name="y">
+						<Value>0.0</Value>
+					</Attribute>
+					<Attribute Name="z">
+						<Value>0.0</Value>
+					</Attribute>
+					<Attribute Name="rx">
+						<Value>0.0</Value>
+					</Attribute>
+					<Attribute Name="ry">
+						<Value>0.0</Value>
+					</Attribute>
+					<Attribute Name="rz">
+						<Value>0.0</Value>
+					</Attribute>
+				</Attribute>
+				<InternalElement ID="{8c43a057-14f1-4a2b-aef9-bff776e55fad}" Name="Bau8">
+					<Attribute Name="Frame">
+						<Attribute Name="x">
+							<Value>0.0</Value>
+						</Attribute>
+						<Attribute Name="y">
+							<Value>0.0</Value>
+						</Attribute>
+						<Attribute Name="z">
+							<Value>0.0</Value>
+						</Attribute>
+						<Attribute Name="rx">
+							<Value>0.0</Value>
+						</Attribute>
+						<Attribute Name="ry">
+							<Value>0.0</Value>
+						</Attribute>
+						<Attribute Name="rz">
+							<Value>0.0</Value>
+						</Attribute>
+					</Attribute>
+					<InternalElement ID="{25c6ec8c-52bb-4841-bdf6-7e2e5c2a5c51}" Name="AS12">
+						<Attribute Name="Frame">
+							<Attribute Name="x">
+								<Value>0.0</Value>
+							</Attribute>
+							<Attribute Name="y">
+								<Value>0.0</Value>
+							</Attribute>
+							<Attribute Name="z">
+								<Value>0.0</Value>
+							</Attribute>
+							<Attribute Name="rx">
+								<Value>0.0</Value>
+							</Attribute>
+							<Attribute Name="ry">
+								<Value>0.0</Value>
+							</Attribute>
+							<Attribute Name="rz">
+								<Value>0.0</Value>
+							</Attribute>
+						</Attribute>
+						<InternalElement ID="{57d5fcbb-e216-4702-933b-7f2d932ec11e}" Name="Element aus RoboterAchse7_15000" RefBaseSystemUnitPath="AnlagenObjekte/RoboterAchse7_15000">
+							<Attribute Name="Frame">
+								<Attribute Name="x">
+									<Value>6.860000133514404</Value>
+								</Attribute>
+								<Attribute Name="y">
+									<Value>-10.260000228881836</Value>
+								</Attribute>
+								<Attribute Name="z">
+									<Value>0.0</Value>
+								</Attribute>
+								<Attribute Name="rx">
+									<Value>0.0</Value>
+								</Attribute>
+								<Attribute Name="ry">
+									<Value>0.0</Value>
+								</Attribute>
+								<Attribute Name="rz">
+									<Value>0.0</Value>
+								</Attribute>
+							</Attribute>
+							<ExternalInterface Name="ADKProjectedImage" ID="{68d3595c-d872-4a19-b761-8eecfdb85436}" RefBaseClassPath="ADKInterfaceLib/ADKProjectedImageInterface">
+								<Attribute Name="zOrder" Unit="" AttributeDataType="">
+									<Description/>
+									<DefaultValue/>
+									<Value>0</Value>
+								</Attribute>
+								<Attribute Name="xOffset" Unit="" AttributeDataType="">
+									<Description/>
+									<DefaultValue/>
+									<Value>0</Value>
+								</Attribute>
+								<Attribute Name="yOffset" Unit="" AttributeDataType="">
+									<Description/>
+									<DefaultValue/>
+									<Value>0</Value>
+								</Attribute>
+								<Attribute Name="refURI" Unit="" AttributeDataType="xs:anyURI">
+									<Description/>
+									<DefaultValue/>
+									<Value>images\Roboter_7_Achse_15000.png</Value>
+								</Attribute>
+							</ExternalInterface>
+						</InternalElement>
+						<InternalElement ID="{dec2fc84-1bef-4cbe-a2d6-ca93723735a9}" Name="Element aus Roboter" RefBaseSystemUnitPath="AnlagenObjekte/Roboter">
+							<Attribute Name="Frame">
+								<Attribute Name="x">
+									<Value>21.459999084472656</Value>
+								</Attribute>
+								<Attribute Name="y">
+									<Value>-10.100000381469727</Value>
+								</Attribute>
+								<Attribute Name="z">
+									<Value>0.0</Value>
+								</Attribute>
+								<Attribute Name="rx">
+									<Value>0.0</Value>
+								</Attribute>
+								<Attribute Name="ry">
+									<Value>0.0</Value>
+								</Attribute>
+								<Attribute Name="rz">
+									<Value>0.0</Value>
+								</Attribute>
+							</Attribute>
+							<ExternalInterface Name="ADKProjectedImage" ID="{2984a116-5872-406b-ac76-8c472fc89822}" RefBaseClassPath="ADKInterfaceLib/ADKProjectedImageInterface">
+								<Attribute Name="zOrder" Unit="" AttributeDataType="">
+									<Description/>
+									<DefaultValue/>
+									<Value>0</Value>
+								</Attribute>
+								<Attribute Name="xOffset" Unit="" AttributeDataType="">
+									<Description/>
+									<DefaultValue/>
+									<Value>0</Value>
+								</Attribute>
+								<Attribute Name="yOffset" Unit="" AttributeDataType="">
+									<Description/>
+									<DefaultValue/>
+									<Value>0</Value>
+								</Attribute>
+								<Attribute Name="refURI" Unit="" AttributeDataType="xs:anyURI">
+									<Description/>
+									<DefaultValue/>
+									<Value>images\Roboter.png</Value>
+								</Attribute>
+							</ExternalInterface>
+						</InternalElement>
+						<InternalElement ID="{dcd52d8c-c7c7-40cf-923f-84f67e0860b2}" Name="Element aus Ablage" RefBaseSystemUnitPath="AnlagenObjekte/Ablage">
+							<Attribute Name="Frame">
+								<Attribute Name="x">
+									<Value>6.0</Value>
+								</Attribute>
+								<Attribute Name="y">
+									<Value>-8.5</Value>
+								</Attribute>
+								<Attribute Name="z">
+									<Value>0.0</Value>
+								</Attribute>
+								<Attribute Name="rx">
+									<Value>0.0</Value>
+								</Attribute>
+								<Attribute Name="ry">
+									<Value>0.0</Value>
+								</Attribute>
+								<Attribute Name="rz">
+									<Value>0.0</Value>
+								</Attribute>
+							</Attribute>
+							<ExternalInterface Name="ADKProjectedImage" ID="{c39f7fe1-6650-4bd6-8c01-a990771e240c}" RefBaseClassPath="ADKInterfaceLib/ADKProjectedImageInterface">
+								<Attribute Name="zOrder" Unit="" AttributeDataType="">
+									<Description/>
+									<DefaultValue/>
+									<Value>0</Value>
+								</Attribute>
+								<Attribute Name="xOffset" Unit="" AttributeDataType="">
+									<Description/>
+									<DefaultValue/>
+									<Value>0</Value>
+								</Attribute>
+								<Attribute Name="yOffset" Unit="" AttributeDataType="">
+									<Description/>
+									<DefaultValue/>
+									<Value>0</Value>
+								</Attribute>
+								<Attribute Name="refURI" Unit="" AttributeDataType="xs:anyURI">
+									<Description/>
+									<DefaultValue/>
+									<Value>images\Ablage_Tisch.png</Value>
+								</Attribute>
+							</ExternalInterface>
+						</InternalElement>
+						<InternalElement ID="{0ae71b34-d30c-4fc3-871a-d22a6af34a5d}" Name="Element aus Ablage" RefBaseSystemUnitPath="AnlagenObjekte/Ablage">
+							<Attribute Name="Frame">
+								<Attribute Name="x">
+									<Value>7.7</Value>
+								</Attribute>
+								<Attribute Name="y">
+									<Value>-8.5</Value>
+								</Attribute>
+								<Attribute Name="z">
+									<Value>0.0</Value>
+								</Attribute>
+								<Attribute Name="rx">
+									<Value>0.0</Value>
+								</Attribute>
+								<Attribute Name="ry">
+									<Value>0.0</Value>
+								</Attribute>
+								<Attribute Name="rz">
+									<Value>0.0</Value>
+								</Attribute>
+							</Attribute>
+							<ExternalInterface Name="ADKProjectedImage" ID="{96de76cd-847c-498e-a42d-6825888ef82d}" RefBaseClassPath="ADKInterfaceLib/ADKProjectedImageInterface">
+								<Attribute Name="zOrder" Unit="" AttributeDataType="">
+									<Description/>
+									<DefaultValue/>
+									<Value>0</Value>
+								</Attribute>
+								<Attribute Name="xOffset" Unit="" AttributeDataType="">
+									<Description/>
+									<DefaultValue/>
+									<Value>0</Value>
+								</Attribute>
+								<Attribute Name="yOffset" Unit="" AttributeDataType="">
+									<Description/>
+									<DefaultValue/>
+									<Value>0</Value>
+								</Attribute>
+								<Attribute Name="refURI" Unit="" AttributeDataType="xs:anyURI">
+									<Description/>
+									<DefaultValue/>
+									<Value>images\Ablage_Tisch.png</Value>
+								</Attribute>
+							</ExternalInterface>
+						</InternalElement>
+						<InternalElement ID="{81f3391c-9719-41ed-81cb-218e4c176797}" Name="Element aus Ablage" RefBaseSystemUnitPath="AnlagenObjekte/Ablage">
+							<Attribute Name="Frame">
+								<Attribute Name="x">
+									<Value>8.960000038146973</Value>
+								</Attribute>
+								<Attribute Name="y">
+									<Value>-8.460000038146973</Value>
+								</Attribute>
+								<Attribute Name="z">
+									<Value>0.0</Value>
+								</Attribute>
+								<Attribute Name="rx">
+									<Value>0.0</Value>
+								</Attribute>
+								<Attribute Name="ry">
+									<Value>0.0</Value>
+								</Attribute>
+								<Attribute Name="rz">
+									<Value>0.0</Value>
+								</Attribute>
+							</Attribute>
+							<ExternalInterface Name="ADKProjectedImage" ID="{3ad47333-d07b-40c9-b223-1095e8ec8431}" RefBaseClassPath="ADKInterfaceLib/ADKProjectedImageInterface">
+								<Attribute Name="zOrder" Unit="" AttributeDataType="">
+									<Description/>
+									<DefaultValue/>
+									<Value>0</Value>
+								</Attribute>
+								<Attribute Name="xOffset" Unit="" AttributeDataType="">
+									<Description/>
+									<DefaultValue/>
+									<Value>0</Value>
+								</Attribute>
+								<Attribute Name="yOffset" Unit="" AttributeDataType="">
+									<Description/>
+									<DefaultValue/>
+									<Value>0</Value>
+								</Attribute>
+								<Attribute Name="refURI" Unit="" AttributeDataType="xs:anyURI">
+									<Description/>
+									<DefaultValue/>
+									<Value>images\Ablage_Tisch.png</Value>
+								</Attribute>
+							</ExternalInterface>
+						</InternalElement>
+						<InternalElement ID="{243689a1-8dcb-48da-8cf5-ea4b991ff0db}" Name="Element aus Ablage" RefBaseSystemUnitPath="AnlagenObjekte/Ablage">
+							<Attribute Name="Frame">
+								<Attribute Name="x">
+									<Value>10.15999984741211</Value>
+								</Attribute>
+								<Attribute Name="y">
+									<Value>-8.399999618530273</Value>
+								</Attribute>
+								<Attribute Name="z">
+									<Value>0.0</Value>
+								</Attribute>
+								<Attribute Name="rx">
+									<Value>0.0</Value>
+								</Attribute>
+								<Attribute Name="ry">
+									<Value>0.0</Value>
+								</Attribute>
+								<Attribute Name="rz">
+									<Value>0.0</Value>
+								</Attribute>
+							</Attribute>
+							<ExternalInterface Name="ADKProjectedImage" ID="{d488e99c-5142-4f54-872d-14127bade124}" RefBaseClassPath="ADKInterfaceLib/ADKProjectedImageInterface">
+								<Attribute Name="zOrder" Unit="" AttributeDataType="">
+									<Description/>
+									<DefaultValue/>
+									<Value>0</Value>
+								</Attribute>
+								<Attribute Name="xOffset" Unit="" AttributeDataType="">
+									<Description/>
+									<DefaultValue/>
+									<Value>0</Value>
+								</Attribute>
+								<Attribute Name="yOffset" Unit="" AttributeDataType="">
+									<Description/>
+									<DefaultValue/>
+									<Value>0</Value>
+								</Attribute>
+								<Attribute Name="refURI" Unit="" AttributeDataType="xs:anyURI">
+									<Description/>
+									<DefaultValue/>
+									<Value>images\Ablage_Tisch.png</Value>
+								</Attribute>
+							</ExternalInterface>
+						</InternalElement>
+						<InternalElement ID="{fbf70a66-7c77-47f8-82fe-2ed155b1bb24}" Name="Element aus Ablage" RefBaseSystemUnitPath="AnlagenObjekte/Ablage">
+							<Attribute Name="Frame">
+								<Attribute Name="x">
+									<Value>12.130000114440918</Value>
+								</Attribute>
+								<Attribute Name="y">
+									<Value>-8.399999618530273</Value>
+								</Attribute>
+								<Attribute Name="z">
+									<Value>0.0</Value>
+								</Attribute>
+								<Attribute Name="rx">
+									<Value>0.0</Value>
+								</Attribute>
+								<Attribute Name="ry">
+									<Value>0.0</Value>
+								</Attribute>
+								<Attribute Name="rz">
+									<Value>0.0</Value>
+								</Attribute>
+							</Attribute>
+							<ExternalInterface Name="ADKProjectedImage" ID="{e99fe253-5811-499e-b739-d71fdd2fbb8f}" RefBaseClassPath="ADKInterfaceLib/ADKProjectedImageInterface">
+								<Attribute Name="zOrder" Unit="" AttributeDataType="">
+									<Description/>
+									<DefaultValue/>
+									<Value>0</Value>
+								</Attribute>
+								<Attribute Name="xOffset" Unit="" AttributeDataType="">
+									<Description/>
+									<DefaultValue/>
+									<Value>0</Value>
+								</Attribute>
+								<Attribute Name="yOffset" Unit="" AttributeDataType="">
+									<Description/>
+									<DefaultValue/>
+									<Value>0</Value>
+								</Attribute>
+								<Attribute Name="refURI" Unit="" AttributeDataType="xs:anyURI">
+									<Description/>
+									<DefaultValue/>
+									<Value>images\Ablage_Tisch.png</Value>
+								</Attribute>
+							</ExternalInterface>
+						</InternalElement>
+						<InternalElement ID="{f9e3e8a9-b6fd-4fa2-99b2-5b8604131d5a}" Name="Element aus Ablage" RefBaseSystemUnitPath="AnlagenObjekte/Ablage">
+							<Attribute Name="Frame">
+								<Attribute Name="x">
+									<Value>13.5600004196167</Value>
+								</Attribute>
+								<Attribute Name="y">
+									<Value>-8.199999809265137</Value>
+								</Attribute>
+								<Attribute Name="z">
+									<Value>0.0</Value>
+								</Attribute>
+								<Attribute Name="rx">
+									<Value>0.0</Value>
+								</Attribute>
+								<Attribute Name="ry">
+									<Value>0.0</Value>
+								</Attribute>
+								<Attribute Name="rz">
+									<Value>0.0</Value>
+								</Attribute>
+							</Attribute>
+							<ExternalInterface Name="ADKProjectedImage" ID="{0defc0fe-150c-46c8-a495-6f8eff3d7d95}" RefBaseClassPath="ADKInterfaceLib/ADKProjectedImageInterface">
+								<Attribute Name="zOrder" Unit="" AttributeDataType="">
+									<Description/>
+									<DefaultValue/>
+									<Value>0</Value>
+								</Attribute>
+								<Attribute Name="xOffset" Unit="" AttributeDataType="">
+									<Description/>
+									<DefaultValue/>
+									<Value>0</Value>
+								</Attribute>
+								<Attribute Name="yOffset" Unit="" AttributeDataType="">
+									<Description/>
+									<DefaultValue/>
+									<Value>0</Value>
+								</Attribute>
+								<Attribute Name="refURI" Unit="" AttributeDataType="xs:anyURI">
+									<Description/>
+									<DefaultValue/>
+									<Value>images\Ablage_Tisch.png</Value>
+								</Attribute>
+							</ExternalInterface>
+						</InternalElement>
+						<InternalElement ID="{15b919a0-8b1e-4e7d-b3d6-6591162caa2b}" Name="Element aus Ablage" RefBaseSystemUnitPath="AnlagenObjekte/Ablage">
+							<Attribute Name="Frame">
+								<Attribute Name="x">
+									<Value>15.15999984741211</Value>
+								</Attribute>
+								<Attribute Name="y">
+									<Value>-8.199999809265137</Value>
+								</Attribute>
+								<Attribute Name="z">
+									<Value>0.0</Value>
+								</Attribute>
+								<Attribute Name="rx">
+									<Value>0.0</Value>
+								</Attribute>
+								<Attribute Name="ry">
+									<Value>0.0</Value>
+								</Attribute>
+								<Attribute Name="rz">
+									<Value>0.0</Value>
+								</Attribute>
+							</Attribute>
+							<ExternalInterface Name="ADKProjectedImage" ID="{8141908e-d622-4103-bdbd-f82d34badf82}" RefBaseClassPath="ADKInterfaceLib/ADKProjectedImageInterface">
+								<Attribute Name="zOrder" Unit="" AttributeDataType="">
+									<Description/>
+									<DefaultValue/>
+									<Value>0</Value>
+								</Attribute>
+								<Attribute Name="xOffset" Unit="" AttributeDataType="">
+									<Description/>
+									<DefaultValue/>
+									<Value>0</Value>
+								</Attribute>
+								<Attribute Name="yOffset" Unit="" AttributeDataType="">
+									<Description/>
+									<DefaultValue/>
+									<Value>0</Value>
+								</Attribute>
+								<Attribute Name="refURI" Unit="" AttributeDataType="xs:anyURI">
+									<Description/>
+									<DefaultValue/>
+									<Value>images\Ablage_Tisch.png</Value>
+								</Attribute>
+							</ExternalInterface>
+						</InternalElement>
+						<InternalElement ID="{73d3dbcc-b3fa-488c-a2ff-2ce43d575e20}" Name="Element aus Robotersteuerschrank" RefBaseSystemUnitPath="AnlagenObjekte/Robotersteuerschrank">
+							<Attribute Name="Frame">
+								<Attribute Name="x">
+									<Value>21.65999984741211</Value>
+								</Attribute>
+								<Attribute Name="y">
+									<Value>-13.430000305175781</Value>
+								</Attribute>
+								<Attribute Name="z">
+									<Value>0.0</Value>
+								</Attribute>
+								<Attribute Name="rx">
+									<Value>0.0</Value>
+								</Attribute>
+								<Attribute Name="ry">
+									<Value>0.0</Value>
+								</Attribute>
+								<Attribute Name="rz">
+									<Value>0.0</Value>
+								</Attribute>
+							</Attribute>
+							<ExternalInterface Name="ADKProjectedImage" ID="{8b71a751-b55d-4068-ac69-296d06000a28}" RefBaseClassPath="ADKInterfaceLib/ADKProjectedImageInterface">
+								<Attribute Name="zOrder" Unit="" AttributeDataType="">
+									<Description/>
+									<DefaultValue/>
+									<Value>0</Value>
+								</Attribute>
+								<Attribute Name="xOffset" Unit="" AttributeDataType="">
+									<Description/>
+									<DefaultValue/>
+									<Value>0</Value>
+								</Attribute>
+								<Attribute Name="yOffset" Unit="" AttributeDataType="">
+									<Description/>
+									<DefaultValue/>
+									<Value>0</Value>
+								</Attribute>
+								<Attribute Name="refURI" Unit="" AttributeDataType="xs:anyURI">
+									<Description/>
+									<DefaultValue/>
+									<Value>images\Robotersteuerschrank.png</Value>
+								</Attribute>
+							</ExternalInterface>
+						</InternalElement>
+						<InternalElement ID="{186c01aa-77e0-405c-bd58-fb3839c6cdfa}" Name="Robotersteuerschrank 1" RefBaseSystemUnitPath="AnlagenObjekte/Robotersteuerschrank">
+							<Attribute Name="Frame">
+								<Attribute Name="x">
+									<Value>19.829999923706055</Value>
+								</Attribute>
+								<Attribute Name="y">
+									<Value>-13.460000038146973</Value>
+								</Attribute>
+								<Attribute Name="z">
+									<Value>0.0</Value>
+								</Attribute>
+								<Attribute Name="rx">
+									<Value>0.0</Value>
+								</Attribute>
+								<Attribute Name="ry">
+									<Value>0.0</Value>
+								</Attribute>
+								<Attribute Name="rz">
+									<Value>0.0</Value>
+								</Attribute>
+							</Attribute>
+							<ExternalInterface Name="ADKProjectedImage" ID="{dee068f5-97c8-4d61-bed2-5af333aeda0c}" RefBaseClassPath="ADKInterfaceLib/ADKProjectedImageInterface">
+								<Attribute Name="zOrder" Unit="" AttributeDataType="">
+									<Description/>
+									<DefaultValue/>
+									<Value>0</Value>
+								</Attribute>
+								<Attribute Name="xOffset" Unit="" AttributeDataType="">
+									<Description/>
+									<DefaultValue/>
+									<Value>0</Value>
+								</Attribute>
+								<Attribute Name="yOffset" Unit="" AttributeDataType="">
+									<Description/>
+									<DefaultValue/>
+									<Value>0</Value>
+								</Attribute>
+								<Attribute Name="refURI" Unit="" AttributeDataType="xs:anyURI">
+									<Description/>
+									<DefaultValue/>
+									<Value>images\Robotersteuerschrank.png</Value>
+								</Attribute>
+							</ExternalInterface>
+						</InternalElement>
+						<InternalElement ID="{479fc089-006e-40d4-ace3-c83235f49777}" Name="Element aus Robotersteuerschrank" RefBaseSystemUnitPath="AnlagenObjekte/Robotersteuerschrank">
+							<Attribute Name="Frame">
+								<Attribute Name="x">
+									<Value>18.5</Value>
+								</Attribute>
+								<Attribute Name="y">
+									<Value>-13.529999732971191</Value>
+								</Attribute>
+								<Attribute Name="z">
+									<Value>0.0</Value>
+								</Attribute>
+								<Attribute Name="rx">
+									<Value>0.0</Value>
+								</Attribute>
+								<Attribute Name="ry">
+									<Value>0.0</Value>
+								</Attribute>
+								<Attribute Name="rz">
+									<Value>0.0</Value>
+								</Attribute>
+							</Attribute>
+							<ExternalInterface Name="ADKProjectedImage" ID="{3f15c21e-6bda-4440-8315-8116ec558981}" RefBaseClassPath="ADKInterfaceLib/ADKProjectedImageInterface">
+								<Attribute Name="zOrder" Unit="" AttributeDataType="">
+									<Description/>
+									<DefaultValue/>
+									<Value>0</Value>
+								</Attribute>
+								<Attribute Name="xOffset" Unit="" AttributeDataType="">
+									<Description/>
+									<DefaultValue/>
+									<Value>0</Value>
+								</Attribute>
+								<Attribute Name="yOffset" Unit="" AttributeDataType="">
+									<Description/>
+									<DefaultValue/>
+									<Value>0</Value>
+								</Attribute>
+								<Attribute Name="refURI" Unit="" AttributeDataType="xs:anyURI">
+									<Description/>
+									<DefaultValue/>
+									<Value>images\Robotersteuerschrank.png</Value>
+								</Attribute>
+							</ExternalInterface>
+						</InternalElement>
+						<InternalElement ID="{cc0deb9d-19ad-4f60-ac74-0437783ab347}" Name="Element aus RoboterAchse7_10000" RefBaseSystemUnitPath="AnlagenObjekte/RoboterAchse7_10000">
+							<Attribute Name="Frame">
+								<Attribute Name="x">
+									<Value>5.730000019073486</Value>
+								</Attribute>
+								<Attribute Name="y">
+									<Value>-6.900000095367432</Value>
+								</Attribute>
+								<Attribute Name="z">
+									<Value>0.0</Value>
+								</Attribute>
+								<Attribute Name="rx">
+									<Value>0.0</Value>
+								</Attribute>
+								<Attribute Name="ry">
+									<Value>0.0</Value>
+								</Attribute>
+								<Attribute Name="rz">
+									<Value>0.0</Value>
+								</Attribute>
+							</Attribute>
+							<ExternalInterface Name="ADKProjectedImage" ID="{ef42e899-5a35-4d77-b4a4-e9408f2d07ef}" RefBaseClassPath="ADKInterfaceLib/ADKProjectedImageInterface">
+								<Attribute Name="zOrder" Unit="" AttributeDataType="">
+									<Description/>
+									<DefaultValue/>
+									<Value>0</Value>
+								</Attribute>
+								<Attribute Name="xOffset" Unit="" AttributeDataType="">
+									<Description/>
+									<DefaultValue/>
+									<Value>0</Value>
+								</Attribute>
+								<Attribute Name="yOffset" Unit="" AttributeDataType="">
+									<Description/>
+									<DefaultValue/>
+									<Value>0</Value>
+								</Attribute>
+								<Attribute Name="refURI" Unit="" AttributeDataType="xs:anyURI">
+									<Description/>
+									<DefaultValue/>
+									<Value>images\Roboter_7_Achse_10000.png</Value>
+								</Attribute>
+							</ExternalInterface>
+						</InternalElement>
+						<InternalElement ID="{f2e621b7-80a4-49c7-84fa-5ae5605e8011}" Name="Element aus Roboter" RefBaseSystemUnitPath="AnlagenObjekte/Roboter">
+							<Attribute Name="Frame">
+								<Attribute Name="x">
+									<Value>15.729999542236328</Value>
+								</Attribute>
+								<Attribute Name="y">
+									<Value>-6.460000038146973</Value>
+								</Attribute>
+								<Attribute Name="z">
+									<Value>0.0</Value>
+								</Attribute>
+								<Attribute Name="rx">
+									<Value>0.0</Value>
+								</Attribute>
+								<Attribute Name="ry">
+									<Value>0.0</Value>
+								</Attribute>
+								<Attribute Name="rz">
+									<Value>0.0</Value>
+								</Attribute>
+							</Attribute>
+							<ExternalInterface Name="ADKProjectedImage" ID="{38cfabc1-31fa-45da-9246-6e7713f1bc17}" RefBaseClassPath="ADKInterfaceLib/ADKProjectedImageInterface">
+								<Attribute Name="zOrder" Unit="" AttributeDataType="">
+									<Description/>
+									<DefaultValue/>
+									<Value>0</Value>
+								</Attribute>
+								<Attribute Name="xOffset" Unit="" AttributeDataType="">
+									<Description/>
+									<DefaultValue/>
+									<Value>0</Value>
+								</Attribute>
+								<Attribute Name="yOffset" Unit="" AttributeDataType="">
+									<Description/>
+									<DefaultValue/>
+									<Value>0</Value>
+								</Attribute>
+								<Attribute Name="refURI" Unit="" AttributeDataType="xs:anyURI">
+									<Description/>
+									<DefaultValue/>
+									<Value>images\Roboter.png</Value>
+								</Attribute>
+							</ExternalInterface>
+						</InternalElement>
+						<InternalElement ID="{5c479db7-728c-4d7d-ac21-a448c079b1d3}" Name="Element aus Vorrichtung_kompl" RefBaseSystemUnitPath="AnlagenObjekte/Vorrichtung_kompl">
+							<Attribute Name="Frame">
+								<Attribute Name="x">
+									<Value>15.930000305175781</Value>
+								</Attribute>
+								<Attribute Name="y">
+									<Value>-4.699999809265137</Value>
+								</Attribute>
+								<Attribute Name="z">
+									<Value>0.0</Value>
+								</Attribute>
+								<Attribute Name="rx">
+									<Value>0.0</Value>
+								</Attribute>
+								<Attribute Name="ry">
+									<Value>0.0</Value>
+								</Attribute>
+								<Attribute Name="rz">
+									<Value>0.0</Value>
+								</Attribute>
+							</Attribute>
+							<ExternalInterface Name="ADKProjectedImage" ID="{b7401cea-afeb-49e1-af1a-2a7d9fd0b065}" RefBaseClassPath="ADKInterfaceLib/ADKProjectedImageInterface">
+								<Attribute Name="zOrder" Unit="" AttributeDataType="">
+									<Description/>
+									<DefaultValue/>
+									<Value>0</Value>
+								</Attribute>
+								<Attribute Name="xOffset" Unit="" AttributeDataType="">
+									<Description/>
+									<DefaultValue/>
+									<Value>0</Value>
+								</Attribute>
+								<Attribute Name="yOffset" Unit="" AttributeDataType="">
+									<Description/>
+									<DefaultValue/>
+									<Value>0</Value>
+								</Attribute>
+								<Attribute Name="refURI" Unit="" AttributeDataType="xs:anyURI">
+									<Description/>
+									<DefaultValue/>
+									<Value>images\Ausschw_Vorr_Tisch_komp.png</Value>
+								</Attribute>
+							</ExternalInterface>
+						</InternalElement>
+						<InternalElement ID="{74a64438-bbf6-4621-acd1-637dd4afc203}" Name="Element aus Roboter" RefBaseSystemUnitPath="AnlagenObjekte/Roboter">
+							<Attribute Name="Frame">
+								<Attribute Name="x">
+									<Value>16.200000762939453</Value>
+								</Attribute>
+								<Attribute Name="y">
+									<Value>-2.3299999237060547</Value>
+								</Attribute>
+								<Attribute Name="z">
+									<Value>0.0</Value>
+								</Attribute>
+								<Attribute Name="rx">
+									<Value>0.0</Value>
+								</Attribute>
+								<Attribute Name="ry">
+									<Value>0.0</Value>
+								</Attribute>
+								<Attribute Name="rz">
+									<Value>0.0</Value>
+								</Attribute>
+							</Attribute>
+							<ExternalInterface Name="ADKProjectedImage" ID="{83c18586-29a8-4030-ad9c-3a409781fd4f}" RefBaseClassPath="ADKInterfaceLib/ADKProjectedImageInterface">
+								<Attribute Name="zOrder" Unit="" AttributeDataType="">
+									<Description/>
+									<DefaultValue/>
+									<Value>0</Value>
+								</Attribute>
+								<Attribute Name="xOffset" Unit="" AttributeDataType="">
+									<Description/>
+									<DefaultValue/>
+									<Value>0</Value>
+								</Attribute>
+								<Attribute Name="yOffset" Unit="" AttributeDataType="">
+									<Description/>
+									<DefaultValue/>
+									<Value>0</Value>
+								</Attribute>
+								<Attribute Name="refURI" Unit="" AttributeDataType="xs:anyURI">
+									<Description/>
+									<DefaultValue/>
+									<Value>images\Roboter.png</Value>
+								</Attribute>
+							</ExternalInterface>
+						</InternalElement>
+						<InternalElement ID="{7ddf94bd-6935-4569-9013-957122d0e80d}" Name="Element aus Roboter" RefBaseSystemUnitPath="AnlagenObjekte/Roboter">
+							<Attribute Name="Frame">
+								<Attribute Name="x">
+									<Value>20.260000228881836</Value>
+								</Attribute>
+								<Attribute Name="y">
+									<Value>-4.099999904632568</Value>
+								</Attribute>
+								<Attribute Name="z">
+									<Value>0.0</Value>
+								</Attribute>
+								<Attribute Name="rx">
+									<Value>0.0</Value>
+								</Attribute>
+								<Attribute Name="ry">
+									<Value>0.0</Value>
+								</Attribute>
+								<Attribute Name="rz">
+									<Value>0.0</Value>
+								</Attribute>
+							</Attribute>
+							<ExternalInterface Name="ADKProjectedImage" ID="{85770808-c1ca-4432-998e-ebfec8b503d9}" RefBaseClassPath="ADKInterfaceLib/ADKProjectedImageInterface">
+								<Attribute Name="zOrder" Unit="" AttributeDataType="">
+									<Description/>
+									<DefaultValue/>
+									<Value>0</Value>
+								</Attribute>
+								<Attribute Name="xOffset" Unit="" AttributeDataType="">
+									<Description/>
+									<DefaultValue/>
+									<Value>0</Value>
+								</Attribute>
+								<Attribute Name="yOffset" Unit="" AttributeDataType="">
+									<Description/>
+									<DefaultValue/>
+									<Value>0</Value>
+								</Attribute>
+								<Attribute Name="refURI" Unit="" AttributeDataType="xs:anyURI">
+									<Description/>
+									<DefaultValue/>
+									<Value>images\Roboter.png</Value>
+								</Attribute>
+							</ExternalInterface>
+						</InternalElement>
+						<InternalElement ID="{24bbb3d2-be06-4aae-95f5-b037eee593de}" Name="Element aus LCA" RefBaseSystemUnitPath="AnlagenObjekte/LCA">
+							<Attribute Name="Frame">
+								<Attribute Name="x">
+									<Value>23.43000030517578</Value>
+								</Attribute>
+								<Attribute Name="y">
+									<Value>-4.559999942779541</Value>
+								</Attribute>
+								<Attribute Name="z">
+									<Value>0.0</Value>
+								</Attribute>
+								<Attribute Name="rx">
+									<Value>0.0</Value>
+								</Attribute>
+								<Attribute Name="ry">
+									<Value>0.0</Value>
+								</Attribute>
+								<Attribute Name="rz">
+									<Value>0.0</Value>
+								</Attribute>
+							</Attribute>
+							<ExternalInterface Name="ADKProjectedImage" ID="{b4776de1-305b-46fa-a374-ec6ff538745a}" RefBaseClassPath="ADKInterfaceLib/ADKProjectedImageInterface">
+								<Attribute Name="zOrder" Unit="" AttributeDataType="">
+									<Description/>
+									<DefaultValue/>
+									<Value>0</Value>
+								</Attribute>
+								<Attribute Name="xOffset" Unit="" AttributeDataType="">
+									<Description/>
+									<DefaultValue/>
+									<Value>0</Value>
+								</Attribute>
+								<Attribute Name="yOffset" Unit="" AttributeDataType="">
+									<Description/>
+									<DefaultValue/>
+									<Value>0</Value>
+								</Attribute>
+								<Attribute Name="refURI" Unit="" AttributeDataType="xs:anyURI">
+									<Description/>
+									<DefaultValue/>
+									<Value>images\LCA_Traeger.png</Value>
+								</Attribute>
+							</ExternalInterface>
+						</InternalElement>
+						<InternalElement ID="{4c2e2b44-4028-412f-aa4f-7a37d96c4532}" Name="Element aus LCA" RefBaseSystemUnitPath="AnlagenObjekte/LCA">
+							<Attribute Name="Frame">
+								<Attribute Name="x">
+									<Value>16.0</Value>
+								</Attribute>
+								<Attribute Name="y">
+									<Value>-0.8299999833106995</Value>
+								</Attribute>
+								<Attribute Name="z">
+									<Value>0.0</Value>
+								</Attribute>
+								<Attribute Name="rx">
+									<Value>0.0</Value>
+								</Attribute>
+								<Attribute Name="ry">
+									<Value>0.0</Value>
+								</Attribute>
+								<Attribute Name="rz">
+									<Value>0.0</Value>
+								</Attribute>
+							</Attribute>
+							<ExternalInterface Name="ADKProjectedImage" ID="{2ed8da5c-f609-4618-9824-045e5f899bff}" RefBaseClassPath="ADKInterfaceLib/ADKProjectedImageInterface">
+								<Attribute Name="zOrder" Unit="" AttributeDataType="">
+									<Description/>
+									<DefaultValue/>
+									<Value>0</Value>
+								</Attribute>
+								<Attribute Name="xOffset" Unit="" AttributeDataType="">
+									<Description/>
+									<DefaultValue/>
+									<Value>0</Value>
+								</Attribute>
+								<Attribute Name="yOffset" Unit="" AttributeDataType="">
+									<Description/>
+									<DefaultValue/>
+									<Value>0</Value>
+								</Attribute>
+								<Attribute Name="refURI" Unit="" AttributeDataType="xs:anyURI">
+									<Description/>
+									<DefaultValue/>
+									<Value>images\LCA_Traeger.png</Value>
+								</Attribute>
+							</ExternalInterface>
+						</InternalElement>
+						<SupportedRoleClass RefRoleClassPath="AutomationMLExtendedRoleClassLib/ProductionLine"/>
+						<RoleRequirements RefBaseRoleClassPath="AutomationMLExtendedRoleClassLib/ProductionLine"/>
+					</InternalElement>
+					<InternalElement ID="{706b6ec9-ea87-4bd8-aa1e-bc7a843d8a3e}" Name="AS13">
+						<Attribute Name="Frame">
+							<Attribute Name="x">
+								<Value>0.0</Value>
+							</Attribute>
+							<Attribute Name="y">
+								<Value>-18.0</Value>
+							</Attribute>
+							<Attribute Name="z">
+								<Value>0.0</Value>
+							</Attribute>
+							<Attribute Name="rx">
+								<Value>0.0</Value>
+							</Attribute>
+							<Attribute Name="ry">
+								<Value>0.0</Value>
+							</Attribute>
+							<Attribute Name="rz">
+								<Value>0.0</Value>
+							</Attribute>
+						</Attribute>
+						<InternalElement ID="{b9481280-b861-4b81-9df0-4fa349bf2a8e}" Name="Element aus RoboterAchse7_15000" RefBaseSystemUnitPath="AnlagenObjekte/RoboterAchse7_15000">
+							<Attribute Name="Frame">
+								<Attribute Name="x">
+									<Value>6.860000133514404</Value>
+								</Attribute>
+								<Attribute Name="y">
+									<Value>-10.260000228881836</Value>
+								</Attribute>
+								<Attribute Name="z">
+									<Value>0.0</Value>
+								</Attribute>
+								<Attribute Name="rx">
+									<Value>0.0</Value>
+								</Attribute>
+								<Attribute Name="ry">
+									<Value>0.0</Value>
+								</Attribute>
+								<Attribute Name="rz">
+									<Value>0.0</Value>
+								</Attribute>
+							</Attribute>
+							<ExternalInterface Name="ADKProjectedImage" ID="{2b5bdba7-c064-4d1d-a4de-599e46fc32d3}" RefBaseClassPath="ADKInterfaceLib/ADKProjectedImageInterface">
+								<Attribute Name="zOrder" Unit="" AttributeDataType="">
+									<Description/>
+									<DefaultValue/>
+									<Value>0</Value>
+								</Attribute>
+								<Attribute Name="xOffset" Unit="" AttributeDataType="">
+									<Description/>
+									<DefaultValue/>
+									<Value>0</Value>
+								</Attribute>
+								<Attribute Name="yOffset" Unit="" AttributeDataType="">
+									<Description/>
+									<DefaultValue/>
+									<Value>0</Value>
+								</Attribute>
+								<Attribute Name="refURI" Unit="" AttributeDataType="xs:anyURI">
+									<Description/>
+									<DefaultValue/>
+									<Value>images\Roboter_7_Achse_15000.png</Value>
+								</Attribute>
+							</ExternalInterface>
+						</InternalElement>
+						<InternalElement ID="{0eb5ce5d-940e-4268-a277-ee86819d8700}" Name="Element aus Roboter" RefBaseSystemUnitPath="AnlagenObjekte/Roboter">
+							<Attribute Name="Frame">
+								<Attribute Name="x">
+									<Value>21.459999084472656</Value>
+								</Attribute>
+								<Attribute Name="y">
+									<Value>-10.100000381469727</Value>
+								</Attribute>
+								<Attribute Name="z">
+									<Value>0.0</Value>
+								</Attribute>
+								<Attribute Name="rx">
+									<Value>0.0</Value>
+								</Attribute>
+								<Attribute Name="ry">
+									<Value>0.0</Value>
+								</Attribute>
+								<Attribute Name="rz">
+									<Value>0.0</Value>
+								</Attribute>
+							</Attribute>
+							<ExternalInterface Name="ADKProjectedImage" ID="{5ffc9a89-ccb0-4779-b8f6-423e468d6313}" RefBaseClassPath="ADKInterfaceLib/ADKProjectedImageInterface">
+								<Attribute Name="zOrder" Unit="" AttributeDataType="">
+									<Description/>
+									<DefaultValue/>
+									<Value>0</Value>
+								</Attribute>
+								<Attribute Name="xOffset" Unit="" AttributeDataType="">
+									<Description/>
+									<DefaultValue/>
+									<Value>0</Value>
+								</Attribute>
+								<Attribute Name="yOffset" Unit="" AttributeDataType="">
+									<Description/>
+									<DefaultValue/>
+									<Value>0</Value>
+								</Attribute>
+								<Attribute Name="refURI" Unit="" AttributeDataType="xs:anyURI">
+									<Description/>
+									<DefaultValue/>
+									<Value>images\Roboter.png</Value>
+								</Attribute>
+							</ExternalInterface>
+						</InternalElement>
+						<InternalElement ID="{d5a7c899-fe57-43c6-8533-bf1c44d9e8f5}" Name="Element aus Ablage" RefBaseSystemUnitPath="AnlagenObjekte/Ablage">
+							<Attribute Name="Frame">
+								<Attribute Name="x">
+									<Value>6.0</Value>
+								</Attribute>
+								<Attribute Name="y">
+									<Value>-8.5</Value>
+								</Attribute>
+								<Attribute Name="z">
+									<Value>0.0</Value>
+								</Attribute>
+								<Attribute Name="rx">
+									<Value>0.0</Value>
+								</Attribute>
+								<Attribute Name="ry">
+									<Value>0.0</Value>
+								</Attribute>
+								<Attribute Name="rz">
+									<Value>0.0</Value>
+								</Attribute>
+							</Attribute>
+							<ExternalInterface Name="ADKProjectedImage" ID="{b8457960-cf14-46a1-9987-aa322c68199b}" RefBaseClassPath="ADKInterfaceLib/ADKProjectedImageInterface">
+								<Attribute Name="zOrder" Unit="" AttributeDataType="">
+									<Description/>
+									<DefaultValue/>
+									<Value>0</Value>
+								</Attribute>
+								<Attribute Name="xOffset" Unit="" AttributeDataType="">
+									<Description/>
+									<DefaultValue/>
+									<Value>0</Value>
+								</Attribute>
+								<Attribute Name="yOffset" Unit="" AttributeDataType="">
+									<Description/>
+									<DefaultValue/>
+									<Value>0</Value>
+								</Attribute>
+								<Attribute Name="refURI" Unit="" AttributeDataType="xs:anyURI">
+									<Description/>
+									<DefaultValue/>
+									<Value>images\Ablage_Tisch.png</Value>
+								</Attribute>
+							</ExternalInterface>
+						</InternalElement>
+						<InternalElement ID="{d5b89426-195d-4c9f-839c-88ff3c81d121}" Name="Element aus Ablage" RefBaseSystemUnitPath="AnlagenObjekte/Ablage">
+							<Attribute Name="Frame">
+								<Attribute Name="x">
+									<Value>7.7</Value>
+								</Attribute>
+								<Attribute Name="y">
+									<Value>-8.5</Value>
+								</Attribute>
+								<Attribute Name="z">
+									<Value>0.0</Value>
+								</Attribute>
+								<Attribute Name="rx">
+									<Value>0.0</Value>
+								</Attribute>
+								<Attribute Name="ry">
+									<Value>0.0</Value>
+								</Attribute>
+								<Attribute Name="rz">
+									<Value>0.0</Value>
+								</Attribute>
+							</Attribute>
+							<ExternalInterface Name="ADKProjectedImage" ID="{c4806b43-3470-4ddd-8346-df06334a7e65}" RefBaseClassPath="ADKInterfaceLib/ADKProjectedImageInterface">
+								<Attribute Name="zOrder" Unit="" AttributeDataType="">
+									<Description/>
+									<DefaultValue/>
+									<Value>0</Value>
+								</Attribute>
+								<Attribute Name="xOffset" Unit="" AttributeDataType="">
+									<Description/>
+									<DefaultValue/>
+									<Value>0</Value>
+								</Attribute>
+								<Attribute Name="yOffset" Unit="" AttributeDataType="">
+									<Description/>
+									<DefaultValue/>
+									<Value>0</Value>
+								</Attribute>
+								<Attribute Name="refURI" Unit="" AttributeDataType="xs:anyURI">
+									<Description/>
+									<DefaultValue/>
+									<Value>images\Ablage_Tisch.png</Value>
+								</Attribute>
+							</ExternalInterface>
+						</InternalElement>
+						<InternalElement ID="{f84dc738-25e9-42e5-9870-d3b56518b8be}" Name="Element aus Ablage" RefBaseSystemUnitPath="AnlagenObjekte/Ablage">
+							<Attribute Name="Frame">
+								<Attribute Name="x">
+									<Value>8.960000038146973</Value>
+								</Attribute>
+								<Attribute Name="y">
+									<Value>-8.460000038146973</Value>
+								</Attribute>
+								<Attribute Name="z">
+									<Value>0.0</Value>
+								</Attribute>
+								<Attribute Name="rx">
+									<Value>0.0</Value>
+								</Attribute>
+								<Attribute Name="ry">
+									<Value>0.0</Value>
+								</Attribute>
+								<Attribute Name="rz">
+									<Value>0.0</Value>
+								</Attribute>
+							</Attribute>
+							<ExternalInterface Name="ADKProjectedImage" ID="{a934e2ff-2032-491b-9d6b-0d1f7e24e6fb}" RefBaseClassPath="ADKInterfaceLib/ADKProjectedImageInterface">
+								<Attribute Name="zOrder" Unit="" AttributeDataType="">
+									<Description/>
+									<DefaultValue/>
+									<Value>0</Value>
+								</Attribute>
+								<Attribute Name="xOffset" Unit="" AttributeDataType="">
+									<Description/>
+									<DefaultValue/>
+									<Value>0</Value>
+								</Attribute>
+								<Attribute Name="yOffset" Unit="" AttributeDataType="">
+									<Description/>
+									<DefaultValue/>
+									<Value>0</Value>
+								</Attribute>
+								<Attribute Name="refURI" Unit="" AttributeDataType="xs:anyURI">
+									<Description/>
+									<DefaultValue/>
+									<Value>images\Ablage_Tisch.png</Value>
+								</Attribute>
+							</ExternalInterface>
+						</InternalElement>
+						<InternalElement ID="{4dd38790-6c69-4c4b-80f8-01395baf8c39}" Name="Element aus Ablage" RefBaseSystemUnitPath="AnlagenObjekte/Ablage">
+							<Attribute Name="Frame">
+								<Attribute Name="x">
+									<Value>10.15999984741211</Value>
+								</Attribute>
+								<Attribute Name="y">
+									<Value>-8.399999618530273</Value>
+								</Attribute>
+								<Attribute Name="z">
+									<Value>0.0</Value>
+								</Attribute>
+								<Attribute Name="rx">
+									<Value>0.0</Value>
+								</Attribute>
+								<Attribute Name="ry">
+									<Value>0.0</Value>
+								</Attribute>
+								<Attribute Name="rz">
+									<Value>0.0</Value>
+								</Attribute>
+							</Attribute>
+							<ExternalInterface Name="ADKProjectedImage" ID="{33011ebc-b0fd-4dd4-9136-40fe494b9d47}" RefBaseClassPath="ADKInterfaceLib/ADKProjectedImageInterface">
+								<Attribute Name="zOrder" Unit="" AttributeDataType="">
+									<Description/>
+									<DefaultValue/>
+									<Value>0</Value>
+								</Attribute>
+								<Attribute Name="xOffset" Unit="" AttributeDataType="">
+									<Description/>
+									<DefaultValue/>
+									<Value>0</Value>
+								</Attribute>
+								<Attribute Name="yOffset" Unit="" AttributeDataType="">
+									<Description/>
+									<DefaultValue/>
+									<Value>0</Value>
+								</Attribute>
+								<Attribute Name="refURI" Unit="" AttributeDataType="xs:anyURI">
+									<Description/>
+									<DefaultValue/>
+									<Value>images\Ablage_Tisch.png</Value>
+								</Attribute>
+							</ExternalInterface>
+						</InternalElement>
+						<InternalElement ID="{f2cf0659-a2d9-4c30-a4e8-cecc5837d36a}" Name="Element aus Ablage" RefBaseSystemUnitPath="AnlagenObjekte/Ablage">
+							<Attribute Name="Frame">
+								<Attribute Name="x">
+									<Value>12.130000114440918</Value>
+								</Attribute>
+								<Attribute Name="y">
+									<Value>-8.399999618530273</Value>
+								</Attribute>
+								<Attribute Name="z">
+									<Value>0.0</Value>
+								</Attribute>
+								<Attribute Name="rx">
+									<Value>0.0</Value>
+								</Attribute>
+								<Attribute Name="ry">
+									<Value>0.0</Value>
+								</Attribute>
+								<Attribute Name="rz">
+									<Value>0.0</Value>
+								</Attribute>
+							</Attribute>
+							<ExternalInterface Name="ADKProjectedImage" ID="{5b77fd87-d5b4-4762-aec5-a2ef10e603ad}" RefBaseClassPath="ADKInterfaceLib/ADKProjectedImageInterface">
+								<Attribute Name="zOrder" Unit="" AttributeDataType="">
+									<Description/>
+									<DefaultValue/>
+									<Value>0</Value>
+								</Attribute>
+								<Attribute Name="xOffset" Unit="" AttributeDataType="">
+									<Description/>
+									<DefaultValue/>
+									<Value>0</Value>
+								</Attribute>
+								<Attribute Name="yOffset" Unit="" AttributeDataType="">
+									<Description/>
+									<DefaultValue/>
+									<Value>0</Value>
+								</Attribute>
+								<Attribute Name="refURI" Unit="" AttributeDataType="xs:anyURI">
+									<Description/>
+									<DefaultValue/>
+									<Value>images\Ablage_Tisch.png</Value>
+								</Attribute>
+							</ExternalInterface>
+						</InternalElement>
+						<InternalElement ID="{7626473c-bf97-4a62-9946-60fd73b0a6ef}" Name="Element aus Ablage" RefBaseSystemUnitPath="AnlagenObjekte/Ablage">
+							<Attribute Name="Frame">
+								<Attribute Name="x">
+									<Value>13.5600004196167</Value>
+								</Attribute>
+								<Attribute Name="y">
+									<Value>-8.199999809265137</Value>
+								</Attribute>
+								<Attribute Name="z">
+									<Value>0.0</Value>
+								</Attribute>
+								<Attribute Name="rx">
+									<Value>0.0</Value>
+								</Attribute>
+								<Attribute Name="ry">
+									<Value>0.0</Value>
+								</Attribute>
+								<Attribute Name="rz">
+									<Value>0.0</Value>
+								</Attribute>
+							</Attribute>
+							<ExternalInterface Name="ADKProjectedImage" ID="{6d8ac635-8f09-463a-ada5-12362f510ba2}" RefBaseClassPath="ADKInterfaceLib/ADKProjectedImageInterface">
+								<Attribute Name="zOrder" Unit="" AttributeDataType="">
+									<Description/>
+									<DefaultValue/>
+									<Value>0</Value>
+								</Attribute>
+								<Attribute Name="xOffset" Unit="" AttributeDataType="">
+									<Description/>
+									<DefaultValue/>
+									<Value>0</Value>
+								</Attribute>
+								<Attribute Name="yOffset" Unit="" AttributeDataType="">
+									<Description/>
+									<DefaultValue/>
+									<Value>0</Value>
+								</Attribute>
+								<Attribute Name="refURI" Unit="" AttributeDataType="xs:anyURI">
+									<Description/>
+									<DefaultValue/>
+									<Value>images\Ablage_Tisch.png</Value>
+								</Attribute>
+							</ExternalInterface>
+						</InternalElement>
+						<InternalElement ID="{34c9d441-d00f-4b3f-998c-3889e563baa6}" Name="Element aus Ablage" RefBaseSystemUnitPath="AnlagenObjekte/Ablage">
+							<Attribute Name="Frame">
+								<Attribute Name="x">
+									<Value>15.15999984741211</Value>
+								</Attribute>
+								<Attribute Name="y">
+									<Value>-8.199999809265137</Value>
+								</Attribute>
+								<Attribute Name="z">
+									<Value>0.0</Value>
+								</Attribute>
+								<Attribute Name="rx">
+									<Value>0.0</Value>
+								</Attribute>
+								<Attribute Name="ry">
+									<Value>0.0</Value>
+								</Attribute>
+								<Attribute Name="rz">
+									<Value>0.0</Value>
+								</Attribute>
+							</Attribute>
+							<ExternalInterface Name="ADKProjectedImage" ID="{0df3e109-8769-419d-9d1c-013fca35d474}" RefBaseClassPath="ADKInterfaceLib/ADKProjectedImageInterface">
+								<Attribute Name="zOrder" Unit="" AttributeDataType="">
+									<Description/>
+									<DefaultValue/>
+									<Value>0</Value>
+								</Attribute>
+								<Attribute Name="xOffset" Unit="" AttributeDataType="">
+									<Description/>
+									<DefaultValue/>
+									<Value>0</Value>
+								</Attribute>
+								<Attribute Name="yOffset" Unit="" AttributeDataType="">
+									<Description/>
+									<DefaultValue/>
+									<Value>0</Value>
+								</Attribute>
+								<Attribute Name="refURI" Unit="" AttributeDataType="xs:anyURI">
+									<Description/>
+									<DefaultValue/>
+									<Value>images\Ablage_Tisch.png</Value>
+								</Attribute>
+							</ExternalInterface>
+						</InternalElement>
+						<InternalElement ID="{d5f9f719-daef-49a2-a5ab-7ab698a7ba20}" Name="Element aus Robotersteuerschrank" RefBaseSystemUnitPath="AnlagenObjekte/Robotersteuerschrank">
+							<Attribute Name="Frame">
+								<Attribute Name="x">
+									<Value>21.65999984741211</Value>
+								</Attribute>
+								<Attribute Name="y">
+									<Value>-13.430000305175781</Value>
+								</Attribute>
+								<Attribute Name="z">
+									<Value>0.0</Value>
+								</Attribute>
+								<Attribute Name="rx">
+									<Value>0.0</Value>
+								</Attribute>
+								<Attribute Name="ry">
+									<Value>0.0</Value>
+								</Attribute>
+								<Attribute Name="rz">
+									<Value>0.0</Value>
+								</Attribute>
+							</Attribute>
+							<ExternalInterface Name="ADKProjectedImage" ID="{786d22e6-5544-47d2-acbe-c4902f2fea6e}" RefBaseClassPath="ADKInterfaceLib/ADKProjectedImageInterface">
+								<Attribute Name="zOrder" Unit="" AttributeDataType="">
+									<Description/>
+									<DefaultValue/>
+									<Value>0</Value>
+								</Attribute>
+								<Attribute Name="xOffset" Unit="" AttributeDataType="">
+									<Description/>
+									<DefaultValue/>
+									<Value>0</Value>
+								</Attribute>
+								<Attribute Name="yOffset" Unit="" AttributeDataType="">
+									<Description/>
+									<DefaultValue/>
+									<Value>0</Value>
+								</Attribute>
+								<Attribute Name="refURI" Unit="" AttributeDataType="xs:anyURI">
+									<Description/>
+									<DefaultValue/>
+									<Value>images\Robotersteuerschrank.png</Value>
+								</Attribute>
+							</ExternalInterface>
+						</InternalElement>
+						<InternalElement ID="{c51042fe-c68c-4075-beb3-e50264d82691}" Name="Robotersteuerschrank 1" RefBaseSystemUnitPath="AnlagenObjekte/Robotersteuerschrank">
+							<Attribute Name="Frame">
+								<Attribute Name="x">
+									<Value>19.829999923706055</Value>
+								</Attribute>
+								<Attribute Name="y">
+									<Value>-13.460000038146973</Value>
+								</Attribute>
+								<Attribute Name="z">
+									<Value>0.0</Value>
+								</Attribute>
+								<Attribute Name="rx">
+									<Value>0.0</Value>
+								</Attribute>
+								<Attribute Name="ry">
+									<Value>0.0</Value>
+								</Attribute>
+								<Attribute Name="rz">
+									<Value>0.0</Value>
+								</Attribute>
+							</Attribute>
+							<ExternalInterface Name="ADKProjectedImage" ID="{b7fd8a6e-67cf-4430-aaa9-eff60f2f8f9f}" RefBaseClassPath="ADKInterfaceLib/ADKProjectedImageInterface">
+								<Attribute Name="zOrder" Unit="" AttributeDataType="">
+									<Description/>
+									<DefaultValue/>
+									<Value>0</Value>
+								</Attribute>
+								<Attribute Name="xOffset" Unit="" AttributeDataType="">
+									<Description/>
+									<DefaultValue/>
+									<Value>0</Value>
+								</Attribute>
+								<Attribute Name="yOffset" Unit="" AttributeDataType="">
+									<Description/>
+									<DefaultValue/>
+									<Value>0</Value>
+								</Attribute>
+								<Attribute Name="refURI" Unit="" AttributeDataType="xs:anyURI">
+									<Description/>
+									<DefaultValue/>
+									<Value>images\Robotersteuerschrank.png</Value>
+								</Attribute>
+							</ExternalInterface>
+						</InternalElement>
+						<InternalElement ID="{08f04832-8664-40d5-8b4d-cb892b79606c}" Name="Element aus Robotersteuerschrank" RefBaseSystemUnitPath="AnlagenObjekte/Robotersteuerschrank">
+							<Attribute Name="Frame">
+								<Attribute Name="x">
+									<Value>18.5</Value>
+								</Attribute>
+								<Attribute Name="y">
+									<Value>-13.529999732971191</Value>
+								</Attribute>
+								<Attribute Name="z">
+									<Value>0.0</Value>
+								</Attribute>
+								<Attribute Name="rx">
+									<Value>0.0</Value>
+								</Attribute>
+								<Attribute Name="ry">
+									<Value>0.0</Value>
+								</Attribute>
+								<Attribute Name="rz">
+									<Value>0.0</Value>
+								</Attribute>
+							</Attribute>
+							<ExternalInterface Name="ADKProjectedImage" ID="{6c251d61-3f09-4cc9-bb9f-b8a07e6f3a4a}" RefBaseClassPath="ADKInterfaceLib/ADKProjectedImageInterface">
+								<Attribute Name="zOrder" Unit="" AttributeDataType="">
+									<Description/>
+									<DefaultValue/>
+									<Value>0</Value>
+								</Attribute>
+								<Attribute Name="xOffset" Unit="" AttributeDataType="">
+									<Description/>
+									<DefaultValue/>
+									<Value>0</Value>
+								</Attribute>
+								<Attribute Name="yOffset" Unit="" AttributeDataType="">
+									<Description/>
+									<DefaultValue/>
+									<Value>0</Value>
+								</Attribute>
+								<Attribute Name="refURI" Unit="" AttributeDataType="xs:anyURI">
+									<Description/>
+									<DefaultValue/>
+									<Value>images\Robotersteuerschrank.png</Value>
+								</Attribute>
+							</ExternalInterface>
+						</InternalElement>
+						<InternalElement ID="{2312872f-1669-465e-88a3-77be74f4ddcc}" Name="Element aus RoboterAchse7_10000" RefBaseSystemUnitPath="AnlagenObjekte/RoboterAchse7_10000">
+							<Attribute Name="Frame">
+								<Attribute Name="x">
+									<Value>5.730000019073486</Value>
+								</Attribute>
+								<Attribute Name="y">
+									<Value>-6.900000095367432</Value>
+								</Attribute>
+								<Attribute Name="z">
+									<Value>0.0</Value>
+								</Attribute>
+								<Attribute Name="rx">
+									<Value>0.0</Value>
+								</Attribute>
+								<Attribute Name="ry">
+									<Value>0.0</Value>
+								</Attribute>
+								<Attribute Name="rz">
+									<Value>0.0</Value>
+								</Attribute>
+							</Attribute>
+							<ExternalInterface Name="ADKProjectedImage" ID="{3b2ee562-08ce-4915-962d-1e90679ea00b}" RefBaseClassPath="ADKInterfaceLib/ADKProjectedImageInterface">
+								<Attribute Name="zOrder" Unit="" AttributeDataType="">
+									<Description/>
+									<DefaultValue/>
+									<Value>0</Value>
+								</Attribute>
+								<Attribute Name="xOffset" Unit="" AttributeDataType="">
+									<Description/>
+									<DefaultValue/>
+									<Value>0</Value>
+								</Attribute>
+								<Attribute Name="yOffset" Unit="" AttributeDataType="">
+									<Description/>
+									<DefaultValue/>
+									<Value>0</Value>
+								</Attribute>
+								<Attribute Name="refURI" Unit="" AttributeDataType="xs:anyURI">
+									<Description/>
+									<DefaultValue/>
+									<Value>images\Roboter_7_Achse_10000.png</Value>
+								</Attribute>
+							</ExternalInterface>
+						</InternalElement>
+						<InternalElement ID="{76a7008e-1528-4033-9816-82a24e8ca5c9}" Name="Element aus Roboter" RefBaseSystemUnitPath="AnlagenObjekte/Roboter">
+							<Attribute Name="Frame">
+								<Attribute Name="x">
+									<Value>15.729999542236328</Value>
+								</Attribute>
+								<Attribute Name="y">
+									<Value>-6.460000038146973</Value>
+								</Attribute>
+								<Attribute Name="z">
+									<Value>0.0</Value>
+								</Attribute>
+								<Attribute Name="rx">
+									<Value>0.0</Value>
+								</Attribute>
+								<Attribute Name="ry">
+									<Value>0.0</Value>
+								</Attribute>
+								<Attribute Name="rz">
+									<Value>0.0</Value>
+								</Attribute>
+							</Attribute>
+							<ExternalInterface Name="ADKProjectedImage" ID="{11b7821a-32c0-478f-bac7-d97bffb8737c}" RefBaseClassPath="ADKInterfaceLib/ADKProjectedImageInterface">
+								<Attribute Name="zOrder" Unit="" AttributeDataType="">
+									<Description/>
+									<DefaultValue/>
+									<Value>0</Value>
+								</Attribute>
+								<Attribute Name="xOffset" Unit="" AttributeDataType="">
+									<Description/>
+									<DefaultValue/>
+									<Value>0</Value>
+								</Attribute>
+								<Attribute Name="yOffset" Unit="" AttributeDataType="">
+									<Description/>
+									<DefaultValue/>
+									<Value>0</Value>
+								</Attribute>
+								<Attribute Name="refURI" Unit="" AttributeDataType="xs:anyURI">
+									<Description/>
+									<DefaultValue/>
+									<Value>images\Roboter.png</Value>
+								</Attribute>
+							</ExternalInterface>
+						</InternalElement>
+						<InternalElement ID="{b03ba0cd-03e0-4efd-8ab9-bcf479243142}" Name="Element aus Vorrichtung_kompl" RefBaseSystemUnitPath="AnlagenObjekte/Vorrichtung_kompl">
+							<Attribute Name="Frame">
+								<Attribute Name="x">
+									<Value>15.930000305175781</Value>
+								</Attribute>
+								<Attribute Name="y">
+									<Value>-4.699999809265137</Value>
+								</Attribute>
+								<Attribute Name="z">
+									<Value>0.0</Value>
+								</Attribute>
+								<Attribute Name="rx">
+									<Value>0.0</Value>
+								</Attribute>
+								<Attribute Name="ry">
+									<Value>0.0</Value>
+								</Attribute>
+								<Attribute Name="rz">
+									<Value>0.0</Value>
+								</Attribute>
+							</Attribute>
+							<ExternalInterface Name="ADKProjectedImage" ID="{a073c6ea-8c51-40e3-b6cd-1f74ddde2376}" RefBaseClassPath="ADKInterfaceLib/ADKProjectedImageInterface">
+								<Attribute Name="zOrder" Unit="" AttributeDataType="">
+									<Description/>
+									<DefaultValue/>
+									<Value>0</Value>
+								</Attribute>
+								<Attribute Name="xOffset" Unit="" AttributeDataType="">
+									<Description/>
+									<DefaultValue/>
+									<Value>0</Value>
+								</Attribute>
+								<Attribute Name="yOffset" Unit="" AttributeDataType="">
+									<Description/>
+									<DefaultValue/>
+									<Value>0</Value>
+								</Attribute>
+								<Attribute Name="refURI" Unit="" AttributeDataType="xs:anyURI">
+									<Description/>
+									<DefaultValue/>
+									<Value>images\Ausschw_Vorr_Tisch_komp.png</Value>
+								</Attribute>
+							</ExternalInterface>
+						</InternalElement>
+						<InternalElement ID="{8677447a-7308-401d-a4d3-8f6621b48ebc}" Name="Element aus Roboter" RefBaseSystemUnitPath="AnlagenObjekte/Roboter">
+							<Attribute Name="Frame">
+								<Attribute Name="x">
+									<Value>16.200000762939453</Value>
+								</Attribute>
+								<Attribute Name="y">
+									<Value>-2.3299999237060547</Value>
+								</Attribute>
+								<Attribute Name="z">
+									<Value>0.0</Value>
+								</Attribute>
+								<Attribute Name="rx">
+									<Value>0.0</Value>
+								</Attribute>
+								<Attribute Name="ry">
+									<Value>0.0</Value>
+								</Attribute>
+								<Attribute Name="rz">
+									<Value>0.0</Value>
+								</Attribute>
+							</Attribute>
+							<ExternalInterface Name="ADKProjectedImage" ID="{c32e0dd0-978e-46bf-9756-f1a6aca660fb}" RefBaseClassPath="ADKInterfaceLib/ADKProjectedImageInterface">
+								<Attribute Name="zOrder" Unit="" AttributeDataType="">
+									<Description/>
+									<DefaultValue/>
+									<Value>0</Value>
+								</Attribute>
+								<Attribute Name="xOffset" Unit="" AttributeDataType="">
+									<Description/>
+									<DefaultValue/>
+									<Value>0</Value>
+								</Attribute>
+								<Attribute Name="yOffset" Unit="" AttributeDataType="">
+									<Description/>
+									<DefaultValue/>
+									<Value>0</Value>
+								</Attribute>
+								<Attribute Name="refURI" Unit="" AttributeDataType="xs:anyURI">
+									<Description/>
+									<DefaultValue/>
+									<Value>images\Roboter.png</Value>
+								</Attribute>
+							</ExternalInterface>
+						</InternalElement>
+						<InternalElement ID="{1cfd7bba-be0f-4a50-b5d2-c5b2beafd3b8}" Name="Element aus Roboter" RefBaseSystemUnitPath="AnlagenObjekte/Roboter">
+							<Attribute Name="Frame">
+								<Attribute Name="x">
+									<Value>20.260000228881836</Value>
+								</Attribute>
+								<Attribute Name="y">
+									<Value>-4.099999904632568</Value>
+								</Attribute>
+								<Attribute Name="z">
+									<Value>0.0</Value>
+								</Attribute>
+								<Attribute Name="rx">
+									<Value>0.0</Value>
+								</Attribute>
+								<Attribute Name="ry">
+									<Value>0.0</Value>
+								</Attribute>
+								<Attribute Name="rz">
+									<Value>0.0</Value>
+								</Attribute>
+							</Attribute>
+							<ExternalInterface Name="ADKProjectedImage" ID="{147f6213-9cd4-44e1-bd6e-49cac9754d38}" RefBaseClassPath="ADKInterfaceLib/ADKProjectedImageInterface">
+								<Attribute Name="zOrder" Unit="" AttributeDataType="">
+									<Description/>
+									<DefaultValue/>
+									<Value>0</Value>
+								</Attribute>
+								<Attribute Name="xOffset" Unit="" AttributeDataType="">
+									<Description/>
+									<DefaultValue/>
+									<Value>0</Value>
+								</Attribute>
+								<Attribute Name="yOffset" Unit="" AttributeDataType="">
+									<Description/>
+									<DefaultValue/>
+									<Value>0</Value>
+								</Attribute>
+								<Attribute Name="refURI" Unit="" AttributeDataType="xs:anyURI">
+									<Description/>
+									<DefaultValue/>
+									<Value>images\Roboter.png</Value>
+								</Attribute>
+							</ExternalInterface>
+						</InternalElement>
+						<InternalElement ID="{87ff330e-b9a4-435b-91c8-feb0b29f166e}" Name="Element aus LCA" RefBaseSystemUnitPath="AnlagenObjekte/LCA">
+							<Attribute Name="Frame">
+								<Attribute Name="x">
+									<Value>23.43000030517578</Value>
+								</Attribute>
+								<Attribute Name="y">
+									<Value>-4.559999942779541</Value>
+								</Attribute>
+								<Attribute Name="z">
+									<Value>0.0</Value>
+								</Attribute>
+								<Attribute Name="rx">
+									<Value>0.0</Value>
+								</Attribute>
+								<Attribute Name="ry">
+									<Value>0.0</Value>
+								</Attribute>
+								<Attribute Name="rz">
+									<Value>0.0</Value>
+								</Attribute>
+							</Attribute>
+							<ExternalInterface Name="ADKProjectedImage" ID="{f9bb8a21-db0c-4f15-974b-fdd0c99c6085}" RefBaseClassPath="ADKInterfaceLib/ADKProjectedImageInterface">
+								<Attribute Name="zOrder" Unit="" AttributeDataType="">
+									<Description/>
+									<DefaultValue/>
+									<Value>0</Value>
+								</Attribute>
+								<Attribute Name="xOffset" Unit="" AttributeDataType="">
+									<Description/>
+									<DefaultValue/>
+									<Value>0</Value>
+								</Attribute>
+								<Attribute Name="yOffset" Unit="" AttributeDataType="">
+									<Description/>
+									<DefaultValue/>
+									<Value>0</Value>
+								</Attribute>
+								<Attribute Name="refURI" Unit="" AttributeDataType="xs:anyURI">
+									<Description/>
+									<DefaultValue/>
+									<Value>images\LCA_Traeger.png</Value>
+								</Attribute>
+							</ExternalInterface>
+						</InternalElement>
+						<InternalElement ID="{f410b227-b238-41d8-ac8c-fcaa35949bf2}" Name="Element aus LCA" RefBaseSystemUnitPath="AnlagenObjekte/LCA">
+							<Attribute Name="Frame">
+								<Attribute Name="x">
+									<Value>16.0</Value>
+								</Attribute>
+								<Attribute Name="y">
+									<Value>-0.8299999833106995</Value>
+								</Attribute>
+								<Attribute Name="z">
+									<Value>0.0</Value>
+								</Attribute>
+								<Attribute Name="rx">
+									<Value>0.0</Value>
+								</Attribute>
+								<Attribute Name="ry">
+									<Value>0.0</Value>
+								</Attribute>
+								<Attribute Name="rz">
+									<Value>0.0</Value>
+								</Attribute>
+							</Attribute>
+							<ExternalInterface Name="ADKProjectedImage" ID="{1c5182c4-df13-4555-af90-b7c6f0ad5643}" RefBaseClassPath="ADKInterfaceLib/ADKProjectedImageInterface">
+								<Attribute Name="zOrder" Unit="" AttributeDataType="">
+									<Description/>
+									<DefaultValue/>
+									<Value>0</Value>
+								</Attribute>
+								<Attribute Name="xOffset" Unit="" AttributeDataType="">
+									<Description/>
+									<DefaultValue/>
+									<Value>0</Value>
+								</Attribute>
+								<Attribute Name="yOffset" Unit="" AttributeDataType="">
+									<Description/>
+									<DefaultValue/>
+									<Value>0</Value>
+								</Attribute>
+								<Attribute Name="refURI" Unit="" AttributeDataType="xs:anyURI">
+									<Description/>
+									<DefaultValue/>
+									<Value>images\LCA_Traeger.png</Value>
+								</Attribute>
+							</ExternalInterface>
+						</InternalElement>
+						<InternalElement ID="{94d29e78-8229-489e-b1b2-a07d45fc29b8}" Name="Neuer SPS Bereich">
+							<Attribute Name="Frame">
+								<Attribute Name="x">
+									<Value>6.9</Value>
+								</Attribute>
+								<Attribute Name="y">
+									<Value>-3.12</Value>
+								</Attribute>
+								<Attribute Name="z">
+									<Value>0.0</Value>
+								</Attribute>
+								<Attribute Name="rx">
+									<Value>0.0</Value>
+								</Attribute>
+								<Attribute Name="ry">
+									<Value>0.0</Value>
+								</Attribute>
+								<Attribute Name="rz">
+									<Value>0.0</Value>
+								</Attribute>
+							</Attribute>
+							<Attribute Name="points" Unit="" AttributeDataType="">
+								<Description/>
+								<DefaultValue/>
+								<Value>0,0,0,1,1,1,1,0</Value>
+							</Attribute>
+							<SupportedRoleClass RefRoleClassPath="ADKRoleLib/ADKArea/SPS Bereich"/>
+						</InternalElement>
+						<InternalElement ID="{4710218f-04c0-4dc4-9fec-68bb015a8a3d}" Name="Sicherheitsbereich_1">
+							<Attribute Name="Frame">
+								<Attribute Name="x">
+									<Value>13700.0</Value>
+								</Attribute>
+								<Attribute Name="y">
+									<Value>-3800.0</Value>
+								</Attribute>
+								<Attribute Name="z">
+									<Value>0.0</Value>
+								</Attribute>
+								<Attribute Name="rx">
+									<Value>0.0</Value>
+								</Attribute>
+								<Attribute Name="ry">
+									<Value>0.0</Value>
+								</Attribute>
+								<Attribute Name="rz">
+									<Value>0.0</Value>
+								</Attribute>
+							</Attribute>
+							<Attribute Name="points" Unit="" AttributeDataType="">
+								<Description/>
+								<DefaultValue/>
+								<Value>1.360,0.280,0,0,0.060,1.390,1.540,1.500,</Value>
+							</Attribute>
+							<InternalElement ID="{4c559eff-8751-471a-8648-8389e564a6a8}" RefBaseSystemUnitPath="{0eb5ce5d-940e-4268-a277-ee86819d8700}"/>
+							<InternalElement ID="{9164af52-55ec-4b70-856f-27f8c27052ff}" RefBaseSystemUnitPath="{34c9d441-d00f-4b3f-998c-3889e563baa6}"/>
+							<InternalElement ID="{ae70d530-e39a-4838-8c79-79252a4f0a8a}" RefBaseSystemUnitPath="{d5f9f719-daef-49a2-a5ab-7ab698a7ba20}"/>
+							<InternalElement ID="{f250d47b-75d3-4fac-8d0d-29dd9a0a93a1}" RefBaseSystemUnitPath="{c51042fe-c68c-4075-beb3-e50264d82691}"/>
+							<InternalElement ID="{e5019802-6649-4299-8cb2-85e83bca1a34}" RefBaseSystemUnitPath="{08f04832-8664-40d5-8b4d-cb892b79606c}"/>
+							<InternalElement ID="{fd50ec3c-08e5-4980-9783-d2ebf5952459}" RefBaseSystemUnitPath="{76a7008e-1528-4033-9816-82a24e8ca5c9}"/>
+							<SupportedRoleClass RefRoleClassPath="ADKRoleLib/ADKArea/Sicherheitsbereich"/>
+						</InternalElement>
+						<InternalElement ID="{9f39dc12-4be8-4d61-95f1-fd9691200deb}" Name="Sicherheitsbereich_2">
+							<Attribute Name="Frame">
+								<Attribute Name="x">
+									<Value>2900.0</Value>
+								</Attribute>
+								<Attribute Name="y">
+									<Value>-2500.0</Value>
+								</Attribute>
+								<Attribute Name="z">
+									<Value>0.0</Value>
+								</Attribute>
+								<Attribute Name="rx">
+									<Value>0.0</Value>
+								</Attribute>
+								<Attribute Name="ry">
+									<Value>0.0</Value>
+								</Attribute>
+								<Attribute Name="rz">
+									<Value>0.0</Value>
+								</Attribute>
+							</Attribute>
+							<Attribute Name="points" Unit="" AttributeDataType="">
+								<Description/>
+								<DefaultValue/>
+								<Value>0,160,10,1340,1490,1350,1590,0,</Value>
+							</Attribute>
+							<InternalElement ID="{2a6e1c87-ae17-4da4-b1c4-57a5837bbc6c}" RefBaseSystemUnitPath="{d5a7c899-fe57-43c6-8533-bf1c44d9e8f5}"/>
+							<InternalElement ID="{7789d24d-8889-443d-bdf4-877bbe657e19}" RefBaseSystemUnitPath="{d5b89426-195d-4c9f-839c-88ff3c81d121}"/>
+							<InternalElement ID="{bccb9a3e-fc2d-4447-9b9c-482f0c888e9a}" RefBaseSystemUnitPath="{f84dc738-25e9-42e5-9870-d3b56518b8be}"/>
+							<InternalElement ID="{55a3c9c4-98a6-4a79-9134-37267a5b3b44}" RefBaseSystemUnitPath="{4dd38790-6c69-4c4b-80f8-01395baf8c39}"/>
+							<InternalElement ID="{63330a8a-5c3e-4731-8bdd-f7a5b14b8225}" RefBaseSystemUnitPath="{f2cf0659-a2d9-4c30-a4e8-cecc5837d36a}"/>
+							<InternalElement ID="{ae38df2a-7553-42bf-8f39-fd2856760e1d}" RefBaseSystemUnitPath="{7626473c-bf97-4a62-9946-60fd73b0a6ef}"/>
+							<InternalElement ID="{13a2889c-76b0-43ce-80c9-c1aeb1b336c6}" RefBaseSystemUnitPath="{34c9d441-d00f-4b3f-998c-3889e563baa6}"/>
+							<InternalElement ID="{7e7e65f4-fefc-4d7c-ba07-053061e14825}" RefBaseSystemUnitPath="{2312872f-1669-465e-88a3-77be74f4ddcc}"/>
+							<InternalElement ID="{a7ef9345-43a6-4286-849f-b58761cf0bdd}" RefBaseSystemUnitPath="{76a7008e-1528-4033-9816-82a24e8ca5c9}"/>
+							<SupportedRoleClass RefRoleClassPath="ADKRoleLib/ADKArea/Sicherheitsbereich"/>
+						</InternalElement>
+						<SupportedRoleClass RefRoleClassPath="AutomationMLExtendedRoleClassLib/ProductionLine"/>
+						<RoleRequirements RefBaseRoleClassPath="AutomationMLExtendedRoleClassLib/ProductionLine"/>
+					</InternalElement>
+					<SupportedRoleClass RefRoleClassPath="AutomationMLExtendedRoleClassLib/Area"/>
+					<RoleRequirements RefBaseRoleClassPath="AutomationMLExtendedRoleClassLib/Area"/>
+				</InternalElement>
+				<SupportedRoleClass RefRoleClassPath="AutomationMLExtendedRoleClassLib/Site"/>
+				<RoleRequirements RefBaseRoleClassPath="AutomationMLExtendedRoleClassLib/Site"/>
+			</InternalElement>
+			<SupportedRoleClass RefRoleClassPath="AutomationMLExtendedRoleClassLib/Enterprise"/>
+			<RoleRequirements RefBaseRoleClassPath="AutomationMLExtendedRoleClassLib/Enterprise"/>
+		</InternalElement>
+		<InternalElement ID="{41f6e202-d3c7-4238-9f13-7b231ce1680f}" Name="Neues InternalElement">
+			<InternalElement ID="{e94100d0-ded9-4ab5-aaeb-c3c275cede05}" Name="Neues InternalElement">
+				<ExternalInterface Name="Neue ADKProjectedImageInterface Schnittstelle" ID="{92d01694-8495-4551-aeb4-e3d0a8234614}" RefBaseClassPath="ADKInterfaceLib/ADKProjectedImageInterface">
+					<Attribute Name="zOrder" Unit="" AttributeDataType="">
+						<Description/>
+						<DefaultValue/>
+						<Value>0</Value>
+					</Attribute>
+					<Attribute Name="xOffset" Unit="" AttributeDataType="">
+						<Description/>
+						<DefaultValue/>
+						<Value>0</Value>
+					</Attribute>
+					<Attribute Name="yOffset" Unit="" AttributeDataType="">
+						<Description/>
+						<DefaultValue/>
+						<Value>0</Value>
+					</Attribute>
+					<Attribute Name="refURI" Unit="" AttributeDataType="">
+						<Description/>
+						<DefaultValue/>
+						<Value>images/KR210R2700prime.dgn.png</Value>
+					</Attribute>
+				</ExternalInterface>
+			</InternalElement>
+		</InternalElement>
+	</InstanceHierarchy>
+	<InterfaceClassLib Name="AutomationMLInterfaceClassLib">
+		<Description>Standard Automation Markup Language Interface Class Library</Description>
+		<Version>2.2.0</Version>
+		<InterfaceClass Name="AutomationMLBaseInterface">
+			<InterfaceClass Name="Order" RefBaseClassPath="AutomationMLInterfaceClassLib/AutomationMLBaseInterface">
+				<Attribute Name="Direction" Unit="" AttributeDataType="xs:string">
+					<Description/>
+					<DefaultValue/>
+					<Value/>
+				</Attribute>
+			</InterfaceClass>
+			<InterfaceClass Name="PortConnector" RefBaseClassPath="AutomationMLInterfaceClassLib/AutomationMLBaseInterface"/>
+			<InterfaceClass Name="InterlockingConnector" RefBaseClassPath="AutomationMLInterfaceClassLib/AutomationMLBaseInterface"/>
+			<InterfaceClass Name="PPRConnector" RefBaseClassPath="AutomationMLInterfaceClassLib/AutomationMLBaseInterface"/>
+			<InterfaceClass Name="ExternalDataConnector" RefBaseClassPath="AutomationMLInterfaceClassLib/AutomationMLBaseInterface">
+				<Attribute Name="refURI" Unit="" AttributeDataType="xs:anyURI">
+					<Description/>
+					<DefaultValue/>
+					<Value/>
+				</Attribute>
+				<InterfaceClass Name="COLLADAInterface" RefBaseClassPath="AutomationMLInterfaceClassLib/AutomationMLBaseInterface/ExternalDataConnector"/>
+				<InterfaceClass Name="PLCopenXMLInterface" RefBaseClassPath="AutomationMLInterfaceClassLib/AutomationMLBaseInterface/ExternalDataConnector"/>
+			</InterfaceClass>
+			<InterfaceClass Name="Communication" RefBaseClassPath="AutomationMLInterfaceClassLib/AutomationMLBaseInterface">
+				<InterfaceClass Name="SignalInterface" RefBaseClassPath="AutomationMLInterfaceClassLib/AutomationMLBaseInterface/Communication"/>
+			</InterfaceClass>
+		</InterfaceClass>
+	</InterfaceClassLib>
+	<InterfaceClassLib Name="ADKInterfaceLib">
+		<InterfaceClass Name="ADKProjectedImageInterface" RefBaseClassPath="AutomationMLInterfaceClassLib/AutomationMLBaseInterface/ExternalDataConnector">
+			<Attribute Name="zOrder" Unit="" AttributeDataType="">
+				<Description/>
+				<DefaultValue/>
+				<Value>0</Value>
+			</Attribute>
+			<Attribute Name="xOffset" Unit="" AttributeDataType="">
+				<Description/>
+				<DefaultValue/>
+				<Value>0</Value>
+			</Attribute>
+			<Attribute Name="yOffset" Unit="" AttributeDataType="">
+				<Description/>
+				<DefaultValue/>
+				<Value>0</Value>
+			</Attribute>
+		</InterfaceClass>
+	</InterfaceClassLib>
+	<InterfaceClassLib Name="ADKSymbolLib">
+		<InterfaceClass Name="ADKSymbol">
+			<Attribute Name="refURI" Unit="" AttributeDataType="">
+				<Description/>
+				<DefaultValue/>
+				<Value/>
+			</Attribute>
+		</InterfaceClass>
+	</InterfaceClassLib>
+	<RoleClassLib Name="AutomationMLBaseRoleClassLib">
+		<Description>Automation Markup Language base role class library</Description>
+		<Version>2.2.0</Version>
+		<RoleClass Name="AutomationMLBaseRole">
+			<RoleClass Name="Group" RefBaseClassPath="AutomationMLBaseRoleClassLib/AutomationMLBaseRole">
+				<Attribute Name="AssociatedFacet" Unit="" AttributeDataType="xs:string">
+					<Description/>
+					<DefaultValue/>
+					<Value/>
+				</Attribute>
+			</RoleClass>
+			<RoleClass Name="Facet" RefBaseClassPath="AutomationMLBaseRoleClassLib/AutomationMLBaseRole"/>
+			<RoleClass Name="Port" RefBaseClassPath="AutomationMLBaseRoleClassLib/AutomationMLBaseRole">
+				<Attribute Name="Direction" Unit="" AttributeDataType="xs:string">
+					<Description/>
+					<DefaultValue/>
+					<Value/>
+				</Attribute>
+				<Attribute Name="Cardinality" Unit="" AttributeDataType="">
+					<Description/>
+					<DefaultValue/>
+					<Value/>
+					<Attribute Name="MinOccur" Unit="" AttributeDataType="xs:unsignedInt">
+						<Description/>
+						<DefaultValue/>
+						<Value/>
+					</Attribute>
+					<Attribute Name="MaxOccur" Unit="" AttributeDataType="xs:unsignedInt">
+						<Description/>
+						<DefaultValue/>
+						<Value/>
+					</Attribute>
+				</Attribute>
+				<Attribute Name="Category" Unit="" AttributeDataType="xs:string">
+					<Description/>
+					<DefaultValue/>
+					<Value/>
+				</Attribute>
+				<ExternalInterface Name="ConnectionPoint" ID="{9942bd9c-c19d-44e4-a197-11b9edf264e7}" RefBaseClassPath="AutomationMLInterfaceClassLib/AutomationMLBaseInterface/PortConnector"/>
+			</RoleClass>
+			<RoleClass Name="Resource" RefBaseClassPath="AutomationMLBaseRoleClassLib/AutomationMLBaseRole"/>
+			<RoleClass Name="Product" RefBaseClassPath="AutomationMLBaseRoleClassLib/AutomationMLBaseRole"/>
+			<RoleClass Name="Process" RefBaseClassPath="AutomationMLBaseRoleClassLib/AutomationMLBaseRole"/>
+			<RoleClass Name="Structure" RefBaseClassPath="AutomationMLBaseRoleClassLib/AutomationMLBaseRole">
+				<RoleClass Name="ProductStructure" RefBaseClassPath="AutomationMLBaseRoleClassLib/AutomationMLBaseRole/Structure"/>
+				<RoleClass Name="ProcessStructure" RefBaseClassPath="AutomationMLBaseRoleClassLib/AutomationMLBaseRole/Structure"/>
+				<RoleClass Name="ResourceStructure" RefBaseClassPath="AutomationMLBaseRoleClassLib/AutomationMLBaseRole/Structure"/>
+			</RoleClass>
+			<RoleClass Name="PropertySet" RefBaseClassPath="AutomationMLBaseRoleClassLib/AutomationMLBaseRole"/>
+		</RoleClass>
+	</RoleClassLib>
+	<RoleClassLib Name="AutomationMLDMIRoleClassLib">
+		<Description>Automation Markup Language  Discrete Manufacturing Industry Role Class Library</Description>
+		<Version>2.4.0</Version>
+		<RoleClass Name="DiscManufacturingEquipment" RefBaseClassPath="AutomationMLBaseRoleClassLib/AutomationMLBaseRole/Resource">
+			<RoleClass Name="Transport" RefBaseClassPath="AutomationMLDMIRoleClassLib/DiscManufacturingEquipment"/>
+			<RoleClass Name="Storage" RefBaseClassPath="AutomationMLDMIRoleClassLib/DiscManufacturingEquipment"/>
+			<RoleClass Name="Fixture" RefBaseClassPath="AutomationMLDMIRoleClassLib/DiscManufacturingEquipment"/>
+			<RoleClass Name="Gate" RefBaseClassPath="AutomationMLDMIRoleClassLib/DiscManufacturingEquipment"/>
+			<RoleClass Name="Robot" RefBaseClassPath="AutomationMLDMIRoleClassLib/DiscManufacturingEquipment"/>
+			<RoleClass Name="Tool" RefBaseClassPath="AutomationMLDMIRoleClassLib/DiscManufacturingEquipment"/>
+			<RoleClass Name="Carrier" RefBaseClassPath="AutomationMLDMIRoleClassLib/DiscManufacturingEquipment"/>
+			<RoleClass Name="Machine" RefBaseClassPath="AutomationMLDMIRoleClassLib/DiscManufacturingEquipment"/>
+			<RoleClass Name="StaticObject" RefBaseClassPath="AutomationMLDMIRoleClassLib/DiscManufacturingEquipment"/>
+		</RoleClass>
+	</RoleClassLib>
+	<RoleClassLib Name="AutomationMLExtendedRoleClassLib">
+		<Version>2.7.0</Version>
+		<RoleClass Name="PLCFacet" RefBaseClassPath="AutomationMLBaseRoleClassLib/AutomationMLBaseRole/Facet"/>
+		<RoleClass Name="HMIFacet" RefBaseClassPath="AutomationMLBaseRoleClassLib/AutomationMLBaseRole/Facet"/>
+		<RoleClass Name="Enterprise" RefBaseClassPath="AutomationMLBaseRoleClassLib/AutomationMLBaseRole/Structure/ResourceStructure"/>
+		<RoleClass Name="Site" RefBaseClassPath="AutomationMLBaseRoleClassLib/AutomationMLBaseRole/Structure/ResourceStructure"/>
+		<RoleClass Name="Area" RefBaseClassPath="AutomationMLBaseRoleClassLib/AutomationMLBaseRole/Structure/ResourceStructure"/>
+		<RoleClass Name="ProductionLine" RefBaseClassPath="AutomationMLBaseRoleClassLib/AutomationMLBaseRole/Structure/ResourceStructure"/>
+		<RoleClass Name="WorkCell" RefBaseClassPath="AutomationMLBaseRoleClassLib/AutomationMLBaseRole/Structure/ResourceStructure"/>
+		<RoleClass Name="ProcessCell" RefBaseClassPath="AutomationMLBaseRoleClassLib/AutomationMLBaseRole/Structure/ResourceStructure"/>
+		<RoleClass Name="Unit" RefBaseClassPath="AutomationMLBaseRoleClassLib/AutomationMLBaseRole/Structure/ResourceStructure"/>
+		<RoleClass Name="ProductionUnit" RefBaseClassPath="AutomationMLBaseRoleClassLib/AutomationMLBaseRole/Structure/ResourceStructure"/>
+		<RoleClass Name="StorageZone" RefBaseClassPath="AutomationMLBaseRoleClassLib/AutomationMLBaseRole/Structure/ResourceStructure"/>
+		<RoleClass Name="StorageUnit" RefBaseClassPath="AutomationMLBaseRoleClassLib/AutomationMLBaseRole/Structure/ResourceStructure"/>
+		<RoleClass Name="Turntable" RefBaseClassPath="AutomationMLDMIRoleClassLib/DiscManufacturingEquipment/Transport"/>
+		<RoleClass Name="Conveyor" RefBaseClassPath="AutomationMLDMIRoleClassLib/DiscManufacturingEquipment/Transport">
+			<RoleClass Name="BeltConveyor" RefBaseClassPath="AutomationMLExtendedRoleClassLib/Conveyor"/>
+			<RoleClass Name="RollConveyor" RefBaseClassPath="AutomationMLExtendedRoleClassLib/Conveyor"/>
+			<RoleClass Name="ChainConveyor" RefBaseClassPath="AutomationMLExtendedRoleClassLib/Conveyor"/>
+			<RoleClass Name="PalletConveyor" RefBaseClassPath="AutomationMLExtendedRoleClassLib/Conveyor"/>
+			<RoleClass Name="OverheadConveyor" RefBaseClassPath="AutomationMLExtendedRoleClassLib/Conveyor"/>
+		</RoleClass>
+		<RoleClass Name="LiftingTable" RefBaseClassPath="AutomationMLDMIRoleClassLib/DiscManufacturingEquipment/Transport"/>
+		<RoleClass Name="AGV" RefBaseClassPath="AutomationMLDMIRoleClassLib/DiscManufacturingEquipment/Transport"/>
+		<RoleClass Name="Transposer" RefBaseClassPath="AutomationMLDMIRoleClassLib/DiscManufacturingEquipment/Transport"/>
+		<RoleClass Name="CarrierHandlingSystem" RefBaseClassPath="AutomationMLDMIRoleClassLib/DiscManufacturingEquipment/Transport"/>
+		<RoleClass Name="BodyStore" RefBaseClassPath="AutomationMLDMIRoleClassLib/DiscManufacturingEquipment/Storage"/>
+		<RoleClass Name="Lift" RefBaseClassPath="AutomationMLDMIRoleClassLib/DiscManufacturingEquipment/Transport"/>
+		<RoleClass Name="Rollerbed" RefBaseClassPath="AutomationMLDMIRoleClassLib/DiscManufacturingEquipment/Transport"/>
+		<RoleClass Name="StationaryTool" RefBaseClassPath="AutomationMLDMIRoleClassLib/DiscManufacturingEquipment/Tool"/>
+		<RoleClass Name="MovableTool" RefBaseClassPath="AutomationMLDMIRoleClassLib/DiscManufacturingEquipment/Tool"/>
+		<RoleClass Name="MeasuringEquipment" RefBaseClassPath="AutomationMLBaseRoleClassLib/AutomationMLBaseRole/Resource"/>
+		<RoleClass Name="Clamp" RefBaseClassPath="AutomationMLDMIRoleClassLib/DiscManufacturingEquipment/Fixture"/>
+		<RoleClass Name="Loader" RefBaseClassPath="AutomationMLDMIRoleClassLib/DiscManufacturingEquipment/Storage"/>
+		<RoleClass Name="Unloader" RefBaseClassPath="AutomationMLDMIRoleClassLib/DiscManufacturingEquipment/Storage"/>
+		<RoleClass Name="ControlCabinet" RefBaseClassPath="AutomationMLCSRoleClassLib/ControlEquipment"/>
+		<RoleClass Name="IODevice" RefBaseClassPath="AutomationMLCSRoleClassLib/ControlEquipment"/>
+		<RoleClass Name="HMI" RefBaseClassPath="AutomationMLCSRoleClassLib/ControlEquipment">
+			<RoleClass Name="WarningEquipment" RefBaseClassPath="AutomationMLExtendedRoleClassLib/HMI"/>
+		</RoleClass>
+		<RoleClass Name="ActuatingDrive" RefBaseClassPath="AutomationMLCSRoleClassLib/ControlEquipment/Actuator"/>
+		<RoleClass Name="MotionController" RefBaseClassPath="AutomationMLCSRoleClassLib/ControlEquipment"/>
+		<RoleClass Name="Panel" RefBaseClassPath="AutomationMLCSRoleClassLib/ControlEquipment/ControlHardware"/>
+		<RoleClass Name="ProcessController" RefBaseClassPath="AutomationMLCSRoleClassLib/ControlEquipment/Controller"/>
+	</RoleClassLib>
+	<RoleClassLib Name="AutomationMLCSRoleClassLib">
+		<Description>Automation Markup Language Control Industry Role Class Library</Description>
+		<Version>2.3.0</Version>
+		<RoleClass Name="ControlEquipment" RefBaseClassPath="AutomationMLBaseRoleClassLib/AutomationMLBaseRole/Resource">
+			<RoleClass Name="Communication" RefBaseClassPath="AutomationMLCSRoleClassLib/ControlEquipment"/>
+			<RoleClass Name="ControlHardware" RefBaseClassPath="AutomationMLCSRoleClassLib/ControlEquipment">
+				<RoleClass Name="PC" RefBaseClassPath="AutomationMLCSRoleClassLib/ControlEquipment/ControlHardware"/>
+				<RoleClass Name="IPC" RefBaseClassPath="AutomationMLCSRoleClassLib/ControlEquipment/ControlHardware"/>
+				<RoleClass Name="EmbeddedDevice" RefBaseClassPath="AutomationMLCSRoleClassLib/ControlEquipment/ControlHardware"/>
+				<RoleClass Name="Handheld" RefBaseClassPath="AutomationMLCSRoleClassLib/ControlEquipment/ControlHardware"/>
+			</RoleClass>
+			<RoleClass Name="Sensor" RefBaseClassPath="AutomationMLCSRoleClassLib/ControlEquipment"/>
+			<RoleClass Name="Actuator" RefBaseClassPath="AutomationMLCSRoleClassLib/ControlEquipment"/>
+			<RoleClass Name="Controller" RefBaseClassPath="AutomationMLCSRoleClassLib/ControlEquipment">
+				<RoleClass Name="PLC" RefBaseClassPath="AutomationMLCSRoleClassLib/ControlEquipment/Controller"/>
+				<RoleClass Name="NC" RefBaseClassPath="AutomationMLCSRoleClassLib/ControlEquipment/Controller"/>
+				<RoleClass Name="RC" RefBaseClassPath="AutomationMLCSRoleClassLib/ControlEquipment/Controller"/>
+				<RoleClass Name="PAC" RefBaseClassPath="AutomationMLCSRoleClassLib/ControlEquipment/Controller"/>
+			</RoleClass>
+		</RoleClass>
+	</RoleClassLib>
+	<RoleClassLib Name="DaimlerRCL_NewStructure">
+		<RoleClass Name="ResourceStructureGroup" RefBaseClassPath="AutomationMLBaseRoleClassLib/AutomationMLBaseRole/Group">
+			<RoleClass Name="ManufacturingArea" RefBaseClassPath="DaimlerRCL_NewStructure/ResourceStructureGroup"/>
+			<RoleClass Name="AssemblyGroup" RefBaseClassPath="DaimlerRCL_NewStructure/ResourceStructureGroup"/>
+			<RoleClass Name="PLCArea" RefBaseClassPath="DaimlerRCL_NewStructure/ResourceStructureGroup"/>
+			<RoleClass Name="SafetyArea" RefBaseClassPath="DaimlerRCL_NewStructure/ResourceStructureGroup"/>
+			<RoleClass Name="EmergencyStopArea" RefBaseClassPath="DaimlerRCL_NewStructure/ResourceStructureGroup"/>
+			<RoleClass Name="Station" RefBaseClassPath="DaimlerRCL_NewStructure/ResourceStructureGroup"/>
+		</RoleClass>
+	</RoleClassLib>
+	<RoleClassLib Name="ADKRoleLib">
+		<RoleClass Name="ADKArea">
+			<Attribute Name="points" Unit="" AttributeDataType="">
+				<Description/>
+				<DefaultValue/>
+				<Value/>
+			</Attribute>
+			<Attribute Name="linewidth" Unit="" AttributeDataType="">
+				<Description/>
+				<DefaultValue/>
+				<Value/>
+			</Attribute>
+			<Attribute Name="forecolor" Unit="" AttributeDataType="">
+				<Description/>
+				<DefaultValue/>
+				<Value/>
+			</Attribute>
+			<Attribute Name="backcolor" Unit="" AttributeDataType="">
+				<Description/>
+				<DefaultValue/>
+				<Value/>
+			</Attribute>
+			<RoleClass Name="Sicherheitsbereich" RefBaseClassPath="ADKRoleLib/ADKArea">
+				<Attribute Name="points" Unit="" AttributeDataType="">
+					<Description/>
+					<DefaultValue/>
+					<Value/>
+				</Attribute>
+				<Attribute Name="linewidth" Unit="" AttributeDataType="">
+					<Description/>
+					<DefaultValue/>
+					<Value>3</Value>
+				</Attribute>
+				<Attribute Name="forecolor" Unit="" AttributeDataType="">
+					<Description/>
+					<DefaultValue/>
+					<Value>50,205,50,255</Value>
+				</Attribute>
+				<Attribute Name="backcolor" Unit="" AttributeDataType="">
+					<Description/>
+					<DefaultValue/>
+					<Value>50,205,50,100</Value>
+				</Attribute>
+			</RoleClass>
+			<RoleClass Name="SPS Bereich" RefBaseClassPath="ADKRoleLib/ADKArea">
+				<Attribute Name="points" Unit="" AttributeDataType="">
+					<Description/>
+					<DefaultValue/>
+					<Value/>
+				</Attribute>
+				<Attribute Name="linewidth" Unit="" AttributeDataType="">
+					<Description/>
+					<DefaultValue/>
+					<Value>3</Value>
+				</Attribute>
+				<Attribute Name="forecolor" Unit="" AttributeDataType="">
+					<Description/>
+					<DefaultValue/>
+					<Value>0,0,255,255</Value>
+				</Attribute>
+				<Attribute Name="backcolor" Unit="" AttributeDataType="">
+					<Description/>
+					<DefaultValue/>
+					<Value>0,0,255,100</Value>
+				</Attribute>
+			</RoleClass>
+		</RoleClass>
+	</RoleClassLib>
+	<SystemUnitClassLib Name="AnlagenObjekte">
+		<SystemUnitClass Name="AnlagenObjekt"/>
+		<SystemUnitClass Name="Roboter" RefBaseClassPath="AnlagenObjekte/AnlagenObjekt">
+			<Attribute Name="Frame">
+				<Attribute Name="x">
+					<Value>0.0</Value>
+				</Attribute>
+				<Attribute Name="y">
+					<Value>0.0</Value>
+				</Attribute>
+				<Attribute Name="z">
+					<Value>0.0</Value>
+				</Attribute>
+				<Attribute Name="rx">
+					<Value>0.0</Value>
+				</Attribute>
+				<Attribute Name="ry">
+					<Value>0.0</Value>
+				</Attribute>
+				<Attribute Name="rz">
+					<Value>0.0</Value>
+				</Attribute>
+			</Attribute>
+			<ExternalInterface Name="ADKProjectedImage" ID="{89c292d3-f9db-474c-8b1e-8e7372bf5b79}" RefBaseClassPath="ADKInterfaceLib/ADKProjectedImageInterface">
+				<Attribute Name="zOrder" Unit="" AttributeDataType="">
+					<Description/>
+					<DefaultValue/>
+					<Value>0</Value>
+				</Attribute>
+				<Attribute Name="xOffset" Unit="" AttributeDataType="">
+					<Description/>
+					<DefaultValue/>
+					<Value>0</Value>
+				</Attribute>
+				<Attribute Name="yOffset" Unit="" AttributeDataType="">
+					<Description/>
+					<DefaultValue/>
+					<Value>0</Value>
+				</Attribute>
+				<Attribute Name="refURI" Unit="" AttributeDataType="xs:anyURI">
+					<Description/>
+					<DefaultValue/>
+					<Value>images\Roboter.png</Value>
+				</Attribute>
+			</ExternalInterface>
+		</SystemUnitClass>
+		<SystemUnitClass Name="Robotersteuerschrank" RefBaseClassPath="AnlagenObjekte/AnlagenObjekt">
+			<ExternalInterface Name="ADKProjectedImage" ID="{d507311b-15f8-40d5-b2cd-bb2c6c6ae30a}" RefBaseClassPath="ADKInterfaceLib/ADKProjectedImageInterface">
+				<Attribute Name="zOrder" Unit="" AttributeDataType="">
+					<Description/>
+					<DefaultValue/>
+					<Value>0</Value>
+				</Attribute>
+				<Attribute Name="xOffset" Unit="" AttributeDataType="">
+					<Description/>
+					<DefaultValue/>
+					<Value>0</Value>
+				</Attribute>
+				<Attribute Name="yOffset" Unit="" AttributeDataType="">
+					<Description/>
+					<DefaultValue/>
+					<Value>0</Value>
+				</Attribute>
+				<Attribute Name="refURI" Unit="" AttributeDataType="xs:anyURI">
+					<Description/>
+					<DefaultValue/>
+					<Value>images\Robotersteuerschrank.png</Value>
+				</Attribute>
+			</ExternalInterface>
+		</SystemUnitClass>
+		<SystemUnitClass Name="Vorrichtung_einf" RefBaseClassPath="AnlagenObjekte/AnlagenObjekt">
+			<ExternalInterface Name="ADKProjectedImage" ID="{d0a2f4d9-df8a-43f4-ae28-eaa22b854111}" RefBaseClassPath="ADKInterfaceLib/ADKProjectedImageInterface">
+				<Attribute Name="zOrder" Unit="" AttributeDataType="">
+					<Description/>
+					<DefaultValue/>
+					<Value>0</Value>
+				</Attribute>
+				<Attribute Name="xOffset" Unit="" AttributeDataType="">
+					<Description/>
+					<DefaultValue/>
+					<Value>0</Value>
+				</Attribute>
+				<Attribute Name="yOffset" Unit="" AttributeDataType="">
+					<Description/>
+					<DefaultValue/>
+					<Value>0</Value>
+				</Attribute>
+				<Attribute Name="refURI" Unit="" AttributeDataType="xs:anyURI">
+					<Description/>
+					<DefaultValue/>
+					<Value>images\Ausschw_Vorr_Tisch_einf.png</Value>
+				</Attribute>
+			</ExternalInterface>
+		</SystemUnitClass>
+		<SystemUnitClass Name="Ablage" RefBaseClassPath="AnlagenObjekte/AnlagenObjekt">
+			<ExternalInterface Name="ADKProjectedImage" ID="{577f7975-f560-4e82-9a65-c8c1fa4c6dfd}" RefBaseClassPath="ADKInterfaceLib/ADKProjectedImageInterface">
+				<Attribute Name="zOrder" Unit="" AttributeDataType="">
+					<Description/>
+					<DefaultValue/>
+					<Value>0</Value>
+				</Attribute>
+				<Attribute Name="xOffset" Unit="" AttributeDataType="">
+					<Description/>
+					<DefaultValue/>
+					<Value>0</Value>
+				</Attribute>
+				<Attribute Name="yOffset" Unit="" AttributeDataType="">
+					<Description/>
+					<DefaultValue/>
+					<Value>0</Value>
+				</Attribute>
+				<Attribute Name="refURI" Unit="" AttributeDataType="xs:anyURI">
+					<Description/>
+					<DefaultValue/>
+					<Value>images\Ablage_Tisch.png</Value>
+				</Attribute>
+			</ExternalInterface>
+		</SystemUnitClass>
+		<SystemUnitClass Name="LCA" RefBaseClassPath="AnlagenObjekte/AnlagenObjekt">
+			<ExternalInterface Name="ADKProjectedImage" ID="{03c4a942-5826-4bf4-998f-f595f9731033}" RefBaseClassPath="ADKInterfaceLib/ADKProjectedImageInterface">
+				<Attribute Name="zOrder" Unit="" AttributeDataType="">
+					<Description/>
+					<DefaultValue/>
+					<Value>0</Value>
+				</Attribute>
+				<Attribute Name="xOffset" Unit="" AttributeDataType="">
+					<Description/>
+					<DefaultValue/>
+					<Value>0</Value>
+				</Attribute>
+				<Attribute Name="yOffset" Unit="" AttributeDataType="">
+					<Description/>
+					<DefaultValue/>
+					<Value>0</Value>
+				</Attribute>
+				<Attribute Name="refURI" Unit="" AttributeDataType="xs:anyURI">
+					<Description/>
+					<DefaultValue/>
+					<Value>images\LCA_Traeger.png</Value>
+				</Attribute>
+			</ExternalInterface>
+		</SystemUnitClass>
+		<SystemUnitClass Name="RoboterAchse7_10000" RefBaseClassPath="AnlagenObjekte/AnlagenObjekt">
+			<Attribute Name="Frame">
+				<Attribute Name="x">
+					<Value>0.0</Value>
+				</Attribute>
+				<Attribute Name="y">
+					<Value>0.0</Value>
+				</Attribute>
+				<Attribute Name="z">
+					<Value>0.0</Value>
+				</Attribute>
+				<Attribute Name="rx">
+					<Value>0.0</Value>
+				</Attribute>
+				<Attribute Name="ry">
+					<Value>0.0</Value>
+				</Attribute>
+				<Attribute Name="rz">
+					<Value>0.0</Value>
+				</Attribute>
+			</Attribute>
+			<ExternalInterface Name="ADKProjectedImage" ID="{d14acdf5-2474-453f-8b61-c566d2fc1c52}" RefBaseClassPath="ADKInterfaceLib/ADKProjectedImageInterface">
+				<Attribute Name="zOrder" Unit="" AttributeDataType="">
+					<Description/>
+					<DefaultValue/>
+					<Value>0</Value>
+				</Attribute>
+				<Attribute Name="xOffset" Unit="" AttributeDataType="">
+					<Description/>
+					<DefaultValue/>
+					<Value>0</Value>
+				</Attribute>
+				<Attribute Name="yOffset" Unit="" AttributeDataType="">
+					<Description/>
+					<DefaultValue/>
+					<Value>0</Value>
+				</Attribute>
+				<Attribute Name="refURI" Unit="" AttributeDataType="xs:anyURI">
+					<Description/>
+					<DefaultValue/>
+					<Value>images\Roboter_7_Achse_10000.png</Value>
+				</Attribute>
+			</ExternalInterface>
+		</SystemUnitClass>
+		<SystemUnitClass Name="RoboterAchse7_15000" RefBaseClassPath="AnlagenObjekte/AnlagenObjekt">
+			<Attribute Name="Frame">
+				<Attribute Name="x">
+					<Value>0.0</Value>
+				</Attribute>
+				<Attribute Name="y">
+					<Value>0.0</Value>
+				</Attribute>
+				<Attribute Name="z">
+					<Value>0.0</Value>
+				</Attribute>
+				<Attribute Name="rx">
+					<Value>0.0</Value>
+				</Attribute>
+				<Attribute Name="ry">
+					<Value>0.0</Value>
+				</Attribute>
+				<Attribute Name="rz">
+					<Value>0.0</Value>
+				</Attribute>
+			</Attribute>
+			<ExternalInterface Name="ADKProjectedImage" ID="{f0034ad4-e7f7-4502-9bb6-82fc1cc316a5}" RefBaseClassPath="ADKInterfaceLib/ADKProjectedImageInterface">
+				<Attribute Name="zOrder" Unit="" AttributeDataType="">
+					<Description/>
+					<DefaultValue/>
+					<Value>0</Value>
+				</Attribute>
+				<Attribute Name="xOffset" Unit="" AttributeDataType="">
+					<Description/>
+					<DefaultValue/>
+					<Value>0</Value>
+				</Attribute>
+				<Attribute Name="yOffset" Unit="" AttributeDataType="">
+					<Description/>
+					<DefaultValue/>
+					<Value>0</Value>
+				</Attribute>
+				<Attribute Name="refURI" Unit="" AttributeDataType="xs:anyURI">
+					<Description/>
+					<DefaultValue/>
+					<Value>images\Roboter_7_Achse_15000.png</Value>
+				</Attribute>
+			</ExternalInterface>
+		</SystemUnitClass>
+		<SystemUnitClass Name="Vorrichtung_kompl" RefBaseClassPath="AnlagenObjekte/AnlagenObjekt">
+			<ExternalInterface Name="ADKProjectedImage" ID="{d0a2f4d9-df8a-43f4-ae28-eaa22b854111}" RefBaseClassPath="ADKInterfaceLib/ADKProjectedImageInterface">
+				<Attribute Name="zOrder" Unit="" AttributeDataType="">
+					<Description/>
+					<DefaultValue/>
+					<Value>0</Value>
+				</Attribute>
+				<Attribute Name="xOffset" Unit="" AttributeDataType="">
+					<Description/>
+					<DefaultValue/>
+					<Value>0</Value>
+				</Attribute>
+				<Attribute Name="yOffset" Unit="" AttributeDataType="">
+					<Description/>
+					<DefaultValue/>
+					<Value>0</Value>
+				</Attribute>
+				<Attribute Name="refURI" Unit="" AttributeDataType="xs:anyURI">
+					<Description/>
+					<DefaultValue/>
+					<Value>images\Ausschw_Vorr_Tisch_komp.png</Value>
+				</Attribute>
+			</ExternalInterface>
+		</SystemUnitClass>
+	</SystemUnitClassLib>
+	<SystemUnitClassLib Name="Symbole">
+		<SystemUnitClass Name="VISchalter">
+			<ExternalInterface Name="Symbol" ID="{4829d746-1f31-4fdc-8c2f-4ca3b1010a06}" RefBaseClassPath="ADKSymbolLib/ADKSymbol">
+				<Attribute Name="refURI" Unit="" AttributeDataType="">
+					<Description/>
+					<DefaultValue/>
+					<Value>symbols/VISchalter.png</Value>
+				</Attribute>
+			</ExternalInterface>
+		</SystemUnitClass>
+		<SystemUnitClass Name="NotHaltBedRechner">
+			<ExternalInterface Name="Symbol" ID="{4829d746-1f31-4fdc-8c2f-4ca3b1010a06}" RefBaseClassPath="ADKSymbolLib/ADKSymbol">
+				<Attribute Name="refURI" Unit="" AttributeDataType="">
+					<Description/>
+					<DefaultValue/>
+					<Value>symbols/NotHaltBedRechner.png</Value>
+				</Attribute>
+			</ExternalInterface>
+		</SystemUnitClass>
+		<SystemUnitClass Name="NotHaltzusaetzlich">
+			<ExternalInterface Name="Symbol" ID="{4829d746-1f31-4fdc-8c2f-4ca3b1010a06}" RefBaseClassPath="ADKSymbolLib/ADKSymbol">
+				<Attribute Name="refURI" Unit="" AttributeDataType="">
+					<Description/>
+					<DefaultValue/>
+					<Value>symbols/NotHaltzusaetzlich.png</Value>
+				</Attribute>
+			</ExternalInterface>
+		</SystemUnitClass>
+		<SystemUnitClass Name="NotHaltPHGRoboter">
+			<ExternalInterface Name="Symbol" ID="{4829d746-1f31-4fdc-8c2f-4ca3b1010a06}" RefBaseClassPath="ADKSymbolLib/ADKSymbol">
+				<Attribute Name="refURI" Unit="" AttributeDataType="">
+					<Description/>
+					<DefaultValue/>
+					<Value>symbols/NotHaltPHGRoboter.png</Value>
+				</Attribute>
+			</ExternalInterface>
+		</SystemUnitClass>
+		<SystemUnitClass Name="Schutzgittertuer">
+			<ExternalInterface Name="Symbol" ID="{4829d746-1f31-4fdc-8c2f-4ca3b1010a06}" RefBaseClassPath="ADKSymbolLib/ADKSymbol">
+				<Attribute Name="refURI" Unit="" AttributeDataType="">
+					<Description/>
+					<DefaultValue/>
+					<Value>symbols/Schutzgittertuer.png</Value>
+				</Attribute>
+			</ExternalInterface>
+		</SystemUnitClass>
+		<SystemUnitClass Name="TuerLaserKabineEinfach">
+			<ExternalInterface Name="Symbol" ID="{4829d746-1f31-4fdc-8c2f-4ca3b1010a06}" RefBaseClassPath="ADKSymbolLib/ADKSymbol">
+				<Attribute Name="refURI" Unit="" AttributeDataType="">
+					<Description/>
+					<DefaultValue/>
+					<Value>symbols/TuerLaserKabineEinfach.png</Value>
+				</Attribute>
+			</ExternalInterface>
+		</SystemUnitClass>
+		<SystemUnitClass Name="TuerLaserKabineDoppel">
+			<ExternalInterface Name="Symbol" ID="{4829d746-1f31-4fdc-8c2f-4ca3b1010a06}" RefBaseClassPath="ADKSymbolLib/ADKSymbol">
+				<Attribute Name="refURI" Unit="" AttributeDataType="">
+					<Description/>
+					<DefaultValue/>
+					<Value>symbols/TuerLaserKabineDoppel.png</Value>
+				</Attribute>
+			</ExternalInterface>
+		</SystemUnitClass>
+		<SystemUnitClass Name="SchutzgittertuerStaufoerderer">
+			<ExternalInterface Name="Symbol" ID="{4829d746-1f31-4fdc-8c2f-4ca3b1010a06}" RefBaseClassPath="ADKSymbolLib/ADKSymbol">
+				<Attribute Name="refURI" Unit="" AttributeDataType="">
+					<Description/>
+					<DefaultValue/>
+					<Value>symbols/SchutzgittertuerStaufoerderer.png</Value>
+				</Attribute>
+			</ExternalInterface>
+		</SystemUnitClass>
+		<SystemUnitClass Name="Laserscanner">
+			<ExternalInterface Name="Symbol" ID="{4829d746-1f31-4fdc-8c2f-4ca3b1010a06}" RefBaseClassPath="ADKSymbolLib/ADKSymbol">
+				<Attribute Name="refURI" Unit="" AttributeDataType="">
+					<Description/>
+					<DefaultValue/>
+					<Value>symbols/Laserscanner.png</Value>
+				</Attribute>
+			</ExternalInterface>
+		</SystemUnitClass>
+		<SystemUnitClass Name="Sicherheitsinitiator">
+			<ExternalInterface Name="Symbol" ID="{4829d746-1f31-4fdc-8c2f-4ca3b1010a06}" RefBaseClassPath="ADKSymbolLib/ADKSymbol">
+				<Attribute Name="refURI" Unit="" AttributeDataType="">
+					<Description/>
+					<DefaultValue/>
+					<Value>symbols/Sicherheitsinitiator.png</Value>
+				</Attribute>
+			</ExternalInterface>
+		</SystemUnitClass>
+		<SystemUnitClass Name="LichtvorhangGitter">
+			<ExternalInterface Name="Symbol" ID="{4829d746-1f31-4fdc-8c2f-4ca3b1010a06}" RefBaseClassPath="ADKSymbolLib/ADKSymbol">
+				<Attribute Name="refURI" Unit="" AttributeDataType="">
+					<Description/>
+					<DefaultValue/>
+					<Value>symbols/LichtvorhangGitter.png</Value>
+				</Attribute>
+			</ExternalInterface>
+		</SystemUnitClass>
+		<SystemUnitClass Name="Sicherheitsschalter">
+			<ExternalInterface Name="Symbol" ID="{4829d746-1f31-4fdc-8c2f-4ca3b1010a06}" RefBaseClassPath="ADKSymbolLib/ADKSymbol">
+				<Attribute Name="refURI" Unit="" AttributeDataType="">
+					<Description/>
+					<DefaultValue/>
+					<Value>symbols/Sicherheitsschalter.png</Value>
+				</Attribute>
+			</ExternalInterface>
+		</SystemUnitClass>
+		<SystemUnitClass Name="Sicherheitstor">
+			<ExternalInterface Name="Symbol" ID="{4829d746-1f31-4fdc-8c2f-4ca3b1010a06}" RefBaseClassPath="ADKSymbolLib/ADKSymbol">
+				<Attribute Name="refURI" Unit="" AttributeDataType="">
+					<Description/>
+					<DefaultValue/>
+					<Value>symbols/Sicherheitstor.png</Value>
+				</Attribute>
+			</ExternalInterface>
+		</SystemUnitClass>
+		<SystemUnitClass Name="VerriegelungAbsteckung">
+			<ExternalInterface Name="Symbol" ID="{4829d746-1f31-4fdc-8c2f-4ca3b1010a06}" RefBaseClassPath="ADKSymbolLib/ADKSymbol">
+				<Attribute Name="refURI" Unit="" AttributeDataType="">
+					<Description/>
+					<DefaultValue/>
+					<Value>symbols/VerriegelungAbsteckung.png</Value>
+				</Attribute>
+			</ExternalInterface>
+		</SystemUnitClass>
+		<SystemUnitClass Name="Sicherheitselemente">
+			<ExternalInterface Name="Symbol" ID="{4829d746-1f31-4fdc-8c2f-4ca3b1010a06}" RefBaseClassPath="ADKSymbolLib/ADKSymbol">
+				<Attribute Name="refURI" Unit="" AttributeDataType="">
+					<Description/>
+					<DefaultValue/>
+					<Value>symbols/Sicherheitselemente.png</Value>
+				</Attribute>
+			</ExternalInterface>
+		</SystemUnitClass>
+		<SystemUnitClass Name="SicherheitSchnStSB">
+			<ExternalInterface Name="Symbol" ID="{4829d746-1f31-4fdc-8c2f-4ca3b1010a06}" RefBaseClassPath="ADKSymbolLib/ADKSymbol">
+				<Attribute Name="refURI" Unit="" AttributeDataType="">
+					<Description/>
+					<DefaultValue/>
+					<Value>symbols/SicherheitSchnStSB.png</Value>
+				</Attribute>
+			</ExternalInterface>
+		</SystemUnitClass>
+	</SystemUnitClassLib>
+</CAEXFile>

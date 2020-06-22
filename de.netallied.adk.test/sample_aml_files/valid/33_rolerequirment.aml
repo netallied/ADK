@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CAEXFile FileName="33_rolerequirment.aml" SchemaVersion="2.15" xsi:noNamespaceSchemaLocation="CAEX_ClassModel_V2.15.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<AdditionalInformation AutomationMLVersion="2.0"/>
+	<AdditionalInformation>
+		<WriterHeader>
+			<WriterName>ADK Editor</WriterName>
+			<WriterID>ADK</WriterID>
+			<WriterVendor>NetAllied Systems GmbH</WriterVendor>
+			<WriterVendorURL>www.netallied.de</WriterVendorURL>
+			<WriterVersion>1.0.0</WriterVersion>
+			<WriterRelease>R1</WriterRelease>
+			<LastWritingDateTime>2016-02-02T10:48:39+0100</LastWritingDateTime>
+			<WriterProjectTitle/>
+			<WriterProjectID/>
+		</WriterHeader>
+	</AdditionalInformation>
+	<ExternalReference Path="RoleClassLibraries/AutomationMLBaseRoleClassLib.aml" Alias="Other"/>
+	<InstanceHierarchy Name="Neue InstanceHiearchy">
+		<InternalElement ID="{62fa4f46-ec04-4bbe-afbb-0138e45bd90a}" Name="Neues InternalElement">
+			<RoleRequirements RefBaseRoleClassPath="Neue Rollenbibliothek/Neue Rolle">
+				<Attribute Name="AssociatedFacet" Unit="" AttributeDataType="">
+					<Description/>
+					<DefaultValue/>
+					<Value/>
+				</Attribute>
+			</RoleRequirements>
+		</InternalElement>
+	</InstanceHierarchy>
+	<RoleClassLib Name="Neue Rollenbibliothek">
+		<RoleClass Name="Neue Rolle" RefBaseClassPath="AutomationMLBaseRoleClassLib/AutomationMLBaseRole/Group"/>
+	</RoleClassLib>
+</CAEXFile>

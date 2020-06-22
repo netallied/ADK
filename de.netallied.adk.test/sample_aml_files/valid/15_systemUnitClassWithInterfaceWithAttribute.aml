@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CAEXFile FileName="10_systemUnitClassWithInterfaceWithAttribute.aml" SchemaVersion="2.15" xsi:noNamespaceSchemaLocation="CAEX_ClassModel_V2.15.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<AdditionalInformation AutomationMLVersion="2.0" />
+	<AdditionalInformation>
+		<WriterHeader>
+			<WriterName>ADK AutomationML Exporter</WriterName>
+			<WriterID>ADKSerializer</WriterID>
+			<WriterVendor>NetAllied Systems</WriterVendor>
+			<WriterVendorURL>http://www.netallied.de</WriterVendorURL>
+			<WriterVersion>0.1.1</WriterVersion>
+			<WriterRelease>0.1.1M1</WriterRelease>
+			<LastWritingDateTime>2013-07-22T15:12:37+0200</LastWritingDateTime>
+			<WriterProjectTitle>InterfaceClass with attributes</WriterProjectTitle>
+			<WriterProjectID>ICAtt</WriterProjectID>
+		</WriterHeader>
+	</AdditionalInformation>
+	<ExternalReference Path="InterfaceClassLibraries/AutomationMLInterfaceClassLib.aml" Alias="AutomationMLInterfaceClassLib" />
+	<ExternalReference Path="RoleClassLibraries/AutomationMLBaseRoleClassLib.aml" Alias="AutomationMLBaseRoleClassLib" />
+	<InterfaceClassLib Name="Lib">
+		<Version>1.0.0</Version>
+		<InterfaceClass Name="Class" RefBaseClassPath="AutomationMLInterfaceClassLib/AutomationMLBaseInterface">
+			<Attribute Name="Attribute" />
+		</InterfaceClass>
+	</InterfaceClassLib>
+	<SystemUnitClassLib Name="SystemUnitClassLib">
+		<Version>1.0.0</Version>
+		<SystemUnitClass Name="SystemUnitClass">
+			<ExternalInterface Name="newClass" RefBaseClassPath="Lib/Class" ID="{9e2481ac-df19-4ecc-aa87-7f39fa8d74ec}">
+				<Attribute Name="Attribute" />
+			</ExternalInterface>
+		</SystemUnitClass>
+	</SystemUnitClassLib>
+</CAEXFile>

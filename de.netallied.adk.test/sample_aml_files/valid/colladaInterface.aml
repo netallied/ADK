@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CAEXFile FileName="c.aml" SchemaVersion="2.15" xsi:noNamespaceSchemaLocation="CAEX_ClassModel_V2.15.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<AdditionalInformation AutomationMLVersion="2.0"/>
+	<AdditionalInformation>
+		<WriterHeader>
+			<WriterName>ADK Editor</WriterName>
+			<WriterID>ADK</WriterID>
+			<WriterVendor>NetAllied Systems GmbH</WriterVendor>
+			<WriterVendorURL>www.netallied.de</WriterVendorURL>
+			<WriterVersion>0.9.5</WriterVersion>
+			<WriterRelease>R1</WriterRelease>
+			<LastWritingDateTime>2014-10-28T16:54:56+0100</LastWritingDateTime>
+			<WriterProjectTitle/>
+			<WriterProjectID/>
+		</WriterHeader>
+	</AdditionalInformation>
+	<ExternalReference Path="RoleClassLibraries/AutomationMLBaseRoleClassLib.aml" Alias="Other"/>
+	<InstanceHierarchy Name="Neue InstanceHiearchy">
+		<InternalElement ID="{03ac3267-ba09-462e-9d3d-01c68a3a03a7}" Name="Neues InternalElement">
+			<ExternalInterface Name="Robot" RefBaseClassPath="AutomationMLInterfaceClassLib/AutomationMLBaseInterface/ExternalDataConnector/COLLADAInterface" ID="{67b58e12-b31c-42f4-bb80-f57e4d95e005}">
+				<Attribute Name="refURI" AttributeDataType="xs:anyURI">
+					<Value>kr2210_fupa.dae#kin_system.kr2210_fupa.co</Value>
+				</Attribute>
+				<Attribute Name="refType" AttributeDataType="xs:string">
+					<Value>explicit</Value>
+				</Attribute>
+				<Attribute Name="target" AttributeDataType="xs:token">
+					<Value>./baseframe</Value>
+				</Attribute>
+			</ExternalInterface>
+		</InternalElement>
+	</InstanceHierarchy>
+</CAEXFile>

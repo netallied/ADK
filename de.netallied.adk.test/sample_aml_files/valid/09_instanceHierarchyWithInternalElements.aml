@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CAEXFile FileName="09_instanceHierarchyWithInternalElements.aml" SchemaVersion="2.15" xsi:noNamespaceSchemaLocation="CAEX_ClassModel_V2.15.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<AdditionalInformation AutomationMLVersion="2.0" />
+	<AdditionalInformation>
+		<WriterHeader>
+			<WriterName>ADK AutomationML Exporter</WriterName>
+			<WriterID>ADKSerializer</WriterID>
+			<WriterVendor>NetAllied Systems</WriterVendor>
+			<WriterVendorURL>http://www.netallied.de</WriterVendorURL>
+			<WriterVersion>0.1.1</WriterVersion>
+			<WriterRelease>0.1.1M1</WriterRelease>
+			<LastWritingDateTime>2013-07-22T15:12:37+0200</LastWritingDateTime>
+			<WriterProjectTitle>InterfaceClass with attributes</WriterProjectTitle>
+			<WriterProjectID>ICAtt</WriterProjectID>
+		</WriterHeader>
+	</AdditionalInformation>
+	<InstanceHierarchy Name="InstanceHierarchy">
+		<InternalElement Name="InternalElement" ID="{534f4b37-b973-43da-b85c-b7fef52895fa}">
+			<InternalElement Name="InternalElement2" ID="{44d76aac-0fce-46fa-a813-90ffdc27a5f5}" />
+		</InternalElement>
+	</InstanceHierarchy>
+</CAEXFile>

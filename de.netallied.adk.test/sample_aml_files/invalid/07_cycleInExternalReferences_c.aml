@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CAEXFile FileName="ApiTest.aml" SchemaVersion="2.15" xsi:noNamespaceSchemaLocation="CAEX_ClassModel_V2.15.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<AdditionalInformation AutomationMLVersion="2.0"/>
+	<AdditionalInformation>
+		<WriterHeader>
+			<WriterName>ADK AutomationML Exporter</WriterName>
+			<WriterID>ADKSerializer</WriterID>
+			<WriterVendor>NetAllied Systems</WriterVendor>
+			<WriterVendorURL>http://www.netallied.de</WriterVendorURL>
+			<WriterVersion>0.1.1</WriterVersion>
+			<WriterRelease>0.1.1M1</WriterRelease>
+			<LastWritingDateTime>2013-07-22T15:12:37+0200</LastWritingDateTime>
+			<WriterProjectTitle>Project XY</WriterProjectTitle>
+			<WriterProjectID>2013P XY</WriterProjectID>
+		</WriterHeader>
+	</AdditionalInformation>
+	<ExternalReference Path="07_cycleInExternalReferences.aml" Alias="Other" />
+</CAEXFile>

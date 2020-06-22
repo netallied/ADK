@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CAEXFile FileName="29_frameAttribute.aml" SchemaVersion="2.15" xsi:noNamespaceSchemaLocation="CAEX_ClassModel_V2.15.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<AdditionalInformation AutomationMLVersion="2.0" />
+	<AdditionalInformation>
+		<WriterHeader>
+			<WriterName>ADK AutomationML Exporter</WriterName>
+			<WriterID>ADKSerializer</WriterID>
+			<WriterVendor>NetAllied Systems</WriterVendor>
+			<WriterVendorURL>http://www.netallied.de</WriterVendorURL>
+			<WriterVersion>0.1.1</WriterVersion>
+			<WriterRelease>0.1.1M1</WriterRelease>
+			<LastWritingDateTime>2013-07-22T15:12:37+0200</LastWritingDateTime>
+			<WriterProjectTitle>InterfaceClass with attributes</WriterProjectTitle>
+			<WriterProjectID>ICAtt</WriterProjectID>
+		</WriterHeader>
+	</AdditionalInformation>
+	<InstanceHierarchy Name="InstanceHierarchy">
+		<InternalElement Name="InternalElement" ID="{c94d2e2c-ba2f-40eb-91c5-3b8070769077}">
+			<Attribute Name="Frame">
+				<Attribute Name="x">
+					<Value>1</Value>
+				</Attribute>
+				<Attribute Name="y">
+					<Value>2</Value>
+				</Attribute>
+				<Attribute Name="z">
+					<Value>3</Value>
+				</Attribute>
+				<Attribute Name="rx">
+					<Value>4</Value>
+				</Attribute>
+				<Attribute Name="ry">
+					<Value>5</Value>
+				</Attribute>
+				<Attribute Name="rz">
+					<Value>6</Value>
+				</Attribute>
+			</Attribute>
+		</InternalElement>
+	</InstanceHierarchy>
+</CAEXFile>
